@@ -1,0 +1,24 @@
+"DGSP_OBJ_ID","DGSP_CODE","DGSP_NOM","FOR_OBJ_ID"
+45,"1 D1 C",Type 1 premier degré commun,39
+46,"1 D1 D",Type 1 premier degré différencié,39
+47,"1 D2 AQ",Type 1 deuxième degré artistique qualification,41
+48,"1 D2 AT",Type 1 deuxième degré artistique transition,41
+49,"1 D2 G",Type 1 deuxième degré général transition,39
+50,"1 D2 P",Type 1 deuxième degré professionnel qualification,42
+51,"1 D2 TQ",Type 1 deuxième degré technique qualification,40
+52,"1 D2 TT",Type 1 deuxième degré technique transition,40
+53,R D2 P,C.E.F.A. deuxième degré professionnel qualification,42
+54,"1 D3 AQ",Type 1 troisième degré artistique qualification,41
+55,"1 D3 AT",Type 1 troisième degré artistique transition,41
+56,"1 D3 G",Type 1 troisième degré général transition,39
+57,"1 D3 P",Type 1 troisième degré professionnel qualification,42
+58,"1 D3 TQ",Type 1 troisième degré technique qualification,40
+59,"1 D3 TT",Type 1 troisième degré technique transition,40
+60,R D3 P,C.E.F.A. troisième degré professionnel qualification,42
+61,R D3 TQ,C.E.F.A. troisième degré technique qualification,40
+62,"1 D4 P",Type 1 quatrième degré professionnel qualification,42
+63,"1 D4 TQ",Type 1 quatrième degré technique qualification,40
+64,"2 CI G",Type 2 cycle inférieur général transition,39
+65,"2 CS G",Type 2 cycle supérieur général transition,39
+8801,"1 DQ",Degré qualifiant CPU,42
+8863,R DQ,R DQ Degré qualifiant CPU,42

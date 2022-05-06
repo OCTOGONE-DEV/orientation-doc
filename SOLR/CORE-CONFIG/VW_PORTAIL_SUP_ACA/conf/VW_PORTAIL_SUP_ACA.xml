@@ -1,0 +1,13 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_SUP_ACA_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_SUP_ACA_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_SUP_ACA">
+         <field column="ACA_OBJ_ID" name="id" />
+         <field column="ACA_OBJ_ID" name="ACA_OBJ_ID" />
+         <field column="ACA_CODE" name="ACA_CODE" />
+         <field column="ACA_NOM" name="ACA_NOM" />
+         <field column="ACA_DEB" name="ACA_DEB" />
+         <field column="ACA_FIN" name="ACA_FIN" />
+      </entity>		
+   </document>
+</dataConfig>

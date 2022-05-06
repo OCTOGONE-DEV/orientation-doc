@@ -1,0 +1,11 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_EPS_NIVEE_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_EPS_NIVEE_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_EPS_NIVE">
+         <field column="NIVE_OBJ_ID" name="id" />
+         <field column="NIVE_OBJ_ID" name="NIVE_OBJ_ID" />
+         <field column="NIVE_CODE" name="NIVE_CODE" />
+         <field column="NIVE_NOM" name="NIVE_NOM" />
+      </entity>
+   </document>
+</dataConfig>

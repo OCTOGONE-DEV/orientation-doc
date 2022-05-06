@@ -1,0 +1,25 @@
+<dataConfig>
+   <dataSource name="QT_STRUCTURES_AUTORISEES_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="QT_STRUCTURES_AUTORISEES_ENTITY_NAME" query="SELECT * FROM GOS2.QT_STRUCTURES_AUTORISEES">
+         <field column="NS_SA_ID" name="id" />
+         <field column="NS_SA_ID" name="NS_SA_ID" />
+         <field column="NS_ETAB_ID" name="NS_ETAB_ID" />
+         <field column="TE_INTITULE" name="TE_INTITULE" />
+         <field column="TE_STRUCTURE" name="TE_STRUCTURE" />
+         <field column="CO_DEGRE_SPEC" name="CO_DEGRE_SPEC" />
+         <field column="CO_ANNEE_ETUDES" name="CO_ANNEE_ETUDES" />
+         <field column="CO_OPTION" name="CO_OPTION" />
+         <field column="TE_INTITULE" name="TE_INTITULE" />
+         <field column="DT_DEBUT" name="DT_DEBUT" />
+         <field column="DT_FIN" name="DT_FIN" />
+         <field column="DT_EXPIRATION" name="DT_EXPIRATION" />
+         <field column="TE_STATUT" name="TE_STATUT" />
+         <field column="NS_PARAM_ID_SA" name="NS_PARAM_ID_SA" />
+         <field column="NS_OBJ_ID_DEGR_SPEC" name="NS_OBJ_ID_DEGR_SPEC" />
+         <field column="NS_OBJ_ID_ANNEE_ETUDE" name="NS_OBJ_ID_ANNEE_ETUDE" />
+         <field column="NS_OBJ_ID_SA" name="NS_OBJ_ID_SA" />
+         <field column="NS_PARAM_ID_STATUT" name="NS_PARAM_ID_STATUT" />
+      </entity>
+   </document>
+</dataConfig>

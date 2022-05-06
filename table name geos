@@ -1,0 +1,184 @@
+NS_SA_ID
+NS_ETAB_ID
+TE_STRUCTURE
+CO_DEGRE_SPEC
+CO_ANNEE_ETUDES
+CO_OPTION
+TE_INTITULE
+DT_DEBUT
+DT_FIN
+DT_EXPIRATION
+TE_STATUT
+NS_PARAM_ID_SA
+NS_OBJ_ID_DEGR_SPEC
+NS_OBJ_ID_ANNEE_ETUDE
+NS_OBJ_ID_SA
+NS_PARAM_ID_STATUT
+
+NS_SA_ID,NS_ETAB_ID,TE_STRUCTURE,CO_DEGRE_SPEC,CO_ANNEE_ETUDES,CO_OPTION,TE_INTITULE,DT_DEBUT,DT_FIN,DT_EXPIRATION,TE_STATUT,NS_PARAM_ID_SA,NS_OBJ_ID_DEGR_SPEC,NS_OBJ_ID_ANNEE_ETUDE,NS_OBJ_ID_SA,NS_PARAM_ID_STATUT 
+
+NS_SA_ID
+<field column="NS_SA_ID" name="id"/>
+<field column="NS_ETAB_ID" name="NS_ETAB_ID"/>
+<field column="TE_STRUCTURE" name="TE_STRUCTURE"/>
+<field column="CO_DEGRE_SPEC" name="CO_DEGRE_SPEC"/>
+<field column="CO_ANNEE_ETUDES" name="CO_ANNEE_ETUDES"/>
+<field column="CO_OPTION" name="CO_OPTION"/>
+<field column="TE_INTITULE" name="TE_INTITULE"/>
+<field column="DT_DEBUT" name="DT_DEBUT"/>
+<field column="DT_FIN" name="DT_FIN"/>
+<field column="DT_EXPIRATION" name="DT_EXPIRATION"/>
+<field column="TE_STATUT" name="TE_STATUT"/>
+<field column="NS_PARAM_ID_SA" name="NS_PARAM_ID_SA"/>
+<field column="NS_OBJ_ID_DEGR_SPEC" name="NS_OBJ_ID_DEGR_SPEC"/>
+<field column="NS_OBJ_ID_ANNEE_ETUDE" name="NS_OBJ_ID_ANNEE_ETUDE"/>
+<field column="NS_OBJ_ID_SA" name="NS_OBJ_ID_SA"/>
+<field column="NS_PARAM_ID_STATUT" name="NS_PARAM_ID_STATUT"/>
+
+
+
+
+<field name="NS_ETAB_ID" type="text_general" indexed="true" stored="true"/>
+<field name="TE_STRUCTURE" type="text_general" indexed="true" stored="true"/>
+<field name="CO_DEGRE_SPEC" type="text_general" indexed="true" stored="true"/>
+<field name="CO_ANNEE_ETUDES" type="text_general" indexed="true" stored="true"/>
+<field name="CO_OPTION" type="text_general" indexed="true" stored="true"/>
+<field name="TE_INTITULE" type="text_general" indexed="true" stored="true"/>
+<field name="DT_DEBUT" type="text_general" indexed="true" stored="true"/>
+<field name="DT_FIN" type="text_general" indexed="true" stored="true"/>
+<field name="DT_EXPIRATION" type="text_general" indexed="true" stored="true"/>
+<field name="TE_STATUT" type="text_general" indexed="true" stored="true"/>
+<field name="NS_PARAM_ID_SA" type="text_general" indexed="true" stored="true"/>
+<field name="NS_OBJ_ID_DEGR_SPEC" type="text_general" indexed="true" stored="true"/>
+<field name="NS_OBJ_ID_ANNEE_ETUDE" type="text_general" indexed="true" stored="true"/>
+<field name="NS_OBJ_ID_SA" type="text_general" indexed="true" stored="true"/>
+<field name="NS_PARAM_ID_STATUT" type="text_general" indexed="true" stored="true"/>
+
+
+
+/home/gregory/Webdev/Client/etnic/Orientation/solr/DIH-FINAL/db/conf/
+
+
+
+
+
+
+
+
+
+
+
+
+############## CADO
+
+
+
+VW_PORTAIL_EPS_ACTE
+VW_PORTAIL_EPS_CATAE
+VW_PORTAIL_EPS_NIFO
+VW_PORTAIL_EPS_NIVE
+VW_PORTAIL_EPS_UNIE
+VW_PORTAIL_SO_AE
+VW_PORTAIL_SO_DGSP
+VW_PORTAIL_SO_FOR         CADO.VW_PORTAIL_SO_FOR
+VW_PORTAIL_SO_OBG
+VW_PORTAIL_SO_OBS
+VW_PORTAIL_TEC_NIV
+
+
+  <field column="FOR_OBJ_ID" name="id"/>
+      <field column="FOR_OBJ_ID" name="FOR_OBJ_ID"/>
+      <field column="FOR_CODE" name="FOR_CODE"/>
+      <field column="FOR_NOM" name="FOR_NOM"/>
+      
+ 
+ 
+ 
+ InsertMode
+ColumnModeOff
+HexOff
+Key END
+Key Ctrl+HOME
+Cut
+"<field column=""
+Paste
+"" name=""
+Paste
+""/>"
+ 
+ 
+ 
+# VW_PORTAIL_EPS_CATAE
+CATAE_OBJ_ID
+ CATAE_CLAS
+ CATAE_NOM
+ CLAPS_OBJ_ID
+ CLAPS_CODE
+ CLAPS_NOM
+ ACTE_OBJ_ID
+ 
+# VW_PORTAIL_EPS_NIFO
+ NIFO_OBJ_ID
+ NIFO_CODE
+ NIFO_NOM
+ 
+# VW_PORTAIL_EPS_NIVE
+NIVE_OBJ_ID
+ NIVE_CODE
+ NIVE_NOM
+ 
+# VW_PORTAIL_EPS_UNIE
+UNIE_OBJ_ID 
+UNIE_CODE 
+UNIE_NOM_LG    
+UNIE_ECTS
+UNIE_DIPL
+UNIE_DFER
+NIFO_OBJ_ID
+NIVE_OBJ_ID
+
+# VW_PORTAIL_SO_AE
+AE_OBJ_ID
+AE_CODE
+AE_NOM
+AE_DTFIN
+DGSP_OBJ_ID
+
+# VW_PORTAIL_SO_DGSP
+DGSP_OBJ_ID
+DGSP_CODE
+DGSP_NOM
+FOR_OBJ_ID
+
+# VW_PORTAIL_SO_FOR
+/////////
+
+# VW_PORTAIL_SO_OBG
+NS_OBJ_ID_OBG
+CO_OBG
+TE_INTITULE_OBG
+SW_QUAL_OBG
+DT_FIN_OBG
+
+# VW_PORTAIL_SO_OBS
+NS_OBJ_ID_OBS
+CO_OBS
+TE_INTITULE_OBS
+
+# VW_PORTAIL_TEC_NIV
+NIV_OBJ_ID
+NIV_CODE
+NIV_NOM
+
+
+
+
+
+
+
+
+
+
+
+
+      

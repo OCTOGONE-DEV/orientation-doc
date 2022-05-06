@@ -1,0 +1,14 @@
+
+1 D2 3 G	Type 1 deuxième degré troisième général transition
+1 D2 4 G	Type 1 deuxième degré quatrième général transition
+1 D3 5 G	Type 1 troisième degré cinquième général transition
+1 D3 6 G	Type 1 troisième degré sixième général transition
+2 CI 3 G	Type 2 cycle inférieur troisième général transition
+2 CS 5 G	Type 2 cycle supérieur cinquième général transition
+2 CS 4 G	Type 2 cycle supérieur quatrième général transition
+2 CS 6 G	Type 2 cycle supérieur sixième général transition
+2 CS 7 G	Type 2 cycle supérieur septième général transition
+1 D3 7L G	Type 1 troisième degré septième préparatoire à l'enseignement supérieur langues modernes
+1 D3 7M G	Type 1 troisième degré septième préparatoire à l'enseignement supérieur mathématiques
+1 D3 7S G	Type 1 troisième degré septième préparatoire à l'enseignement supérieur sciences
+1 D3 7PES	Type 1 troisième degré septième préparatoire à l'enseignement supérieur

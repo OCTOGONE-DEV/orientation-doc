@@ -1,0 +1,75 @@
+DB,NOM VUE,TYPE,CATEGORY,DESCRIPTION,LIEN TABLE,QUANTITÉ,STATUS,CHECK
+CADO,VW_PORTAIL_EPS_CATAE,CATÉGORIE,beaucoup de dupliqué – sana sait pas – EPS ??,,,18634,retour sana,changé mapping solr id  « ACTE_OBJ_ID »  RE-IMPORT = TODO
+CADO,VW_PORTAIL_SUP_ACA,CATÉGORIE,année de cours,,,8,retour sana,ok
+CADO,VW_PORTAIL_SUP_CERT,CATÉGORIE,"certificat, pas de relation avec cat plus bas ?",,,4,retour sana,ok
+CADO,VW_PORTAIL_SUP_COMA,CATÉGORIE,,,,8,retour sana,duplication RE-IMPORT = OK
+CADO,VW_PORTAIL_SUP_MODHO,CATÉGORIE,type horaire,,,3,retour sana,ok
+CADO,VW_PORTAIL_SUP_MODLI,CATÉGORIE,type de langue,,,5,retour sana,duplication RE-IMPORT = OK
+CADO,VW_PORTAIL_SUP_MODPE,CATÉGORIE,type enseignement de quoi ???,,,3,retour sana,unique name
+CADO,VW_PORTAIL_SUP_TYPDO,CATÉGORIE,type de document fin etudes,,,3,retour sana,ok
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+GOSS,VW_SIEL_LM,DATA,"cours langue – secondaire inferieur, langue moderne",,,29589,,1 entrée RE-IMPORT = TODO
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,Premier filtre,,,,,,,
+CADO,VW_PORTAIL_TEC_NIV,CATÉGORIE,Secondaire / Supérieur ou EPS,liste Secondaire / Supérieur ou EPS ≡ so-concept-niv . FORME d’enseignement,,8,,OK NIVE_OBJ_ID was not UNIQUE
+,Années / cycle,,,,,,,
+CADO,VW_PORTAIL_SUP_CYC,CATÉGORIE,cycle enseignement supérieur,,,3,,
+CADO,VW_PORTAIL_SO_AE,DATA,??? secondaire année  études – presa fatima qui allait pas,,,80,,
+CADO,VW_PORTAIL_EPS_ACTE,DATA,Cours EPS ??? - créer les liens,,,31557,,Only 4 entry…RE-IMPORT = TODO
+,Diplôm/Certif/ Formati/ Attesta/ Program,,,,,,,
+,Attestations,,,,,,,
+CADO,VW_PORTAIL_SUP_AREPS,,"attestation de reusssite EPS, catégorie ?",vide ???,,,,
+,Formations - superieur,,,,,,,
+,VW_PORTAIL_FORMATION,DATA,filtrer dernière année,,,,,
+HOPS,VW_PORTAIL_HABILITATION,DATA,que des chiffres,,,3239,,
+HOPS,VW_PORTAIL_FORMATION,DATA,pour formation plus bas - intitulé du programme,,,1331,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,Certifications – superieur,,,,,,,
+CADO,VW_PORTAIL_SUP_CERTI,DATA,catégorie ?,,,42994,,
+,Diplômes,,,,,,,
+CADO,VW_PORTAIL_SUP_DIPL,DATA,catégorie ?,,,1326,,
+,Programmes,,,,,,,
+,???,,,,,,,
+,Type d’enseignement – superieur,,,,,,,
+CADO,VW_PORTAIL_EPS_NIFO,CATÉGORIE,formation,classification enseignement.be « Niveaux et types d’enseignement »,,4,,
+CADO,VW_PORTAIL_EPS_NIVE,CATÉGORIE,enseignement,classification enseignement.be « Niveaux et types d’enseignement »,,16,,
+CADO,VW_PORTAIL_SUP_FORET,CATÉGORIE,forme d’étude,classification enseignement.be « Niveaux et types d’enseignement »,,5,,
+CADO,VW_PORTAIL_SO_FOR,CATÉGORIE,forme,classification enseignement.be « Niveaux et types d’enseignement »,,4,,
+,,,,,,,,
+,Forme / Niveau d’enseignement – superieur,,,,,,,
+CADO,VW_PORTAIL_SO_DGSP,CATÉGORIE,degré spécifique secondaire ,,,23,,
+CADO,VW_PORTAIL_EPS_UNIE,DATA,"enseignement profesionnel – sera en partie eleminier , uniquement pour secondaire",,,12020,,NO UNIQUE ID
+FASE,VW_PORTAIL_ORIENTATION,DATA,"adresse établissement, haute école, université, ecolé sup. Des arts, promo.social supérieur","(Type d’établissement) correspond à la forme d’ESec (décret Missions), à la forme d’ESup (décret Paysage), au niveau (sec / sup) pour l’EPS .",,8649,,
+HOPS,VW_PORTAIL_PE,DATA,"enseignement superieur uniquement, intitulé du grogramme",,,15487,,
+,,,,,,,,
+,,,,,,,,
+,Resultat – secondaire,,,,,,,
+CADO,VW_PORTAIL_SO_OBG,DATA,,,,442,,
+CADO,VW_PORTAIL_SO_OBS,DATA,???,,,70,,
+,,,,,,,,
+GOSS,QT_STRUCTURES_AUTORISEES,DATA,secondaire de transition,,,49518,,    Name (name) was not unique re-import ? /// only 2 RE-IMPORT = TODO

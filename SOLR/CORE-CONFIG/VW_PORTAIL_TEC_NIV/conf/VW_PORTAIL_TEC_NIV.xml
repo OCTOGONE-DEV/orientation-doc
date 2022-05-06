@@ -1,0 +1,11 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_TEC_NIV_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_TEC_NIV_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_TEC_NIV">
+         <field column="NIV_OBJ_ID" name="id" />
+         <field column="NIV_OBJ_ID" name="NIV_OBJ_ID" />
+         <field column="NIV_CODE" name="NIV_CODE" />
+         <field column="NIV_NOM" name="NIV_NOM" />
+      </entity>
+   </document>
+</dataConfig>

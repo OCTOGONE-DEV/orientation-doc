@@ -1,0 +1,33 @@
+3 filtres necessaires
+
+formation lié au supérieur
+
+
+
+# NE PAS PRENDRE SUPERIEUR - VW_PORTAIL_EPS_NIVE.csv
+
+
+10134	ESIQ	ENSEIGNEMENT SECONDAIRE INFERIEUR DE QUALIFICATION
+10135	ESIT 	ENSEIGNEMENT SECONDAIRE INFERIEUR DE TRANSITION
+10136	ESSQ 	ENSEIGNEMENT SECONDAIRE SUPERIEUR DE QUALIFICATION
+10137	ESST 	ENSEIGNEMENT SECONDAIRE SUPERIEUR DE TRANSITION
+
+10165	ESS	ENSEIGNEMENT SECONDAIRE SUPERIEUR
+10167	SC	ENSEIGNEMENT SUPERIEUR DE PROMOTION SOCIALE DE TYPE COURT
+
+
+# VW_PORTAIL_EPS_UNIE
+
+
+filtrer tous les reulstat pour deux derniere année
+
+obg = optopj, de base groupé
+obs = option de base simple
+
+
+formations, programmes, diplome attestion et certification = superieur
+
+CPMS = nouvelle vue
+centre medico social spycho
+
+un centre peux avoir plusieurs écoles

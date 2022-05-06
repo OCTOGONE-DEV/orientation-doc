@@ -1,0 +1,20 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_ORIENTATION_CPMS_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_ORIENTATION_CPMS_ENTITY_NAME" query="SELECT * FROM FASE.VW_PORTAIL_ORIENTATION_CPMS">
+      	 <field column="ROWNUMBER" name="id" />
+         <field column="ROWNUMBER" name="ROWNUMBER" />
+         <field column="CPMS_NS_ETAB_ID" name="CPMS_NS_ETAB_ID" />
+         <field column="CPMS_NOM" name="CPMS_NOM" />
+         <field column="CPMS_RUE" name="CPMS_RUE" />
+         <field column="CPMS_NUMERO" name="CPMS_NUMERO" />
+         <field column="CPMS_CODEPOSTAL" name="CPMS_CODEPOSTAL" />
+         <field column="CPMS_LOCALITE" name="CPMS_LOCALITE" />
+         <field column="CPMS_TELEPHONE" name="CPMS_TELEPHONE" />
+         <field column="CPMS_FAX" name="CPMS_FAX" />
+         <field column="CPMS_EMAIL" name="CPMS_EMAIL" />
+         <field column="NS_ETAB_ID" name="NS_ETAB_ID" />
+         <field column="TE_NOM_ETAB" name="TE_NOM_ETAB" />
+      </entity>
+   </document>
+</dataConfig>

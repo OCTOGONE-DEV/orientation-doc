@@ -1,0 +1,76 @@
+# VW_PORTAIL_EPS_ACTE
+NIFO_OBJ_ID
+
+# VW_PORTAIL_EPS_CATAE
+ACTE_OBJ_ID
+
+# VW_PORTAIL_EPS_UNIE
+NIFO_OBJ_ID	NIVE_OBJ_ID
+
+# VW_PORTAIL_SO_AE
+DGSP_OBJ_ID
+
+# VW_PORTAIL_SO_FOR
+FOR_OBJ_ID
+
+
+# VW_PORTAIL_SUP_COMA
+2X colonne COMA_CODE (CODE_NOM?)
+
+
+
+= = =
+CATAE PROBLEM: ONLY 1
+ACTE PROBLEM: ONLY 2
+VW_PORTAIL_ORIENTATION: ONLY 1
+QT_STRUCTURES_AUTORISEES: ONLY 1
+VW_SIEL_LM: ONLY 1
+====
+check unique
+create tabs form
+
+# CONTENT TYPE
+CADO/eps : VW_PORTAIL_EPS_ACTE.csv = enseignement second ### TEST OK 31557 -- pas bon fichier?
+
+
+= enseignement second 49519
+CADO/eps : VW_PORTAIL_EPS_UNIE = EPS ### TEST OK 12020
+CADO/sup: VW_PORTAIL_SUP_CERTI = CERTIFICAT 648
+HOPS : VW_PORTAIL_FORMATION = formation 1331
+HOPS : VW_PORTAIL_PE = enseignement sup 15487
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# DEMO
+
+presentation des fonctionnalités techniques
+
+29 vue
+
+fondamentale
+GOSS = enseignement second - obligatoire -  49519
+CADO/eps : VW_PORTAIL_EPS_UNIE = EPS ### TEST OK 12020
+CADO/sup: VW_PORTAIL_SUP_CERTI = CERTIFICAT 648
+HOPS : VW_PORTAIL_FORMATION = formation 1331
+HOPS : VW_PORTAIL_PE = enseignement sup 15487
+
+
+tous est gerable via interface d'amin
+delta import + vue sur nouvelle MAJ
+montrer les mecanismes
+montrer depublication
+montrer type de contenu importé
+possibilité rajouter des champs
+
+système opérationel
+
+/search/content
+MATHEMATIQUES
+fleuriste
+français
+gestion
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+
+VW_PORTAIL_EPS_UNIE erreur 255 character

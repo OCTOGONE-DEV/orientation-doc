@@ -1,0 +1,26 @@
+Ceci est valable pour tout type de contenu
+
+- Avoir une vue proprement configuré afin de l'importer dans Drupal via Feeds
+- filtrer la vue via URL Solr si necessaire
+- créer la taxononmie qui va récupérer les données en réutilisant les champs disponible et en les labélisant specifiquement, avec description idoine.
+- cloner la toxonomie si possible
+- Créer/cloner feeds types avec description idoine.
+- Créer feeds avec description idoine - pas possible de cloner.
+- importer les contenus
+- ajouter à search API la taxonomie importée
+- indexer le contenu
+- ajouter à search API les champs de la taxonomie à indexer (champs commun non specifique à une taxo)
+- re-indexer le contenu
+- définir type de display pour les rendered item de search API
+- reindexer le contenu
+- créer/cloner la facets
+  - créer les relations custom label
+  - definir entrée à exclure pour le menu spécifique
+- ajouter le block de la facets dans la page
+- tester la recherche
+
+
+- Champ agrégé dans onglet general 
+- chaque dropwdown doit avoir un champ en comun
+
+

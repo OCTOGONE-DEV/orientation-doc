@@ -1,0 +1,30 @@
+1 D2 3 P	Type 1 deuxième degré troisième professionnel qualification
+1 D2 4 P	Type 1 deuxième degré quatrième professionnel qualification
+R D2 3 P	C.E.F.A. deuxième degré troisième professionnel qualification
+R D2 4 P	C.E.F.A. deuxième degré quatrième professionnel qualification
+R D2 P 45	C.E.F.A. deuxième degré professionnel qualification
+1 DQ C2D P	Type 1 deuxième degré année complémentaire CPU en professionnel de qualification
+1 D3 5 P	Type 1 troisième degré cinquième professionnel qualification
+1 D3 6 P	Type 1 troisième degré sixième professionnel qualification
+R D3 P 45	C.E.F.A. troisième degré professionnel qualification
+1 D3 7B P	Type 1 troisième degré septième B professionnel qualification
+1 D3 7C P	Type 1 troisième degré septième C professionnel qualification
+R D3 5 P	C.E.F.A. troisième degré cinquième professionnel qualification
+R D3 6 P	C.E.F.A. troisième degré sixième professionnel qualification
+R D3 7B P	C.E.F.A. troisième degré septième professionnel qualification
+1 D4 7 P	Type 1 quatrième degré septième professionnelle E.P.S.C. soins infirmiers
+1 D4 1 P	Type 1 quatrième degré première professionnelle qualification
+1 D4 2 P	Type 1 quatrième degré deuxième professionnelle qualification
+1 D4 3 P	Type 1 quatrième degré troisième professionnelle qualification
+1 DQ 4 P	1 DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU
+R DQ 4 P	R DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU
+1 D4 3C P	Type 1 quatrième degré troisième complémentaire professionnelle qualification
+1 DQ 5 P	1 DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU
+R DQ 5 P	R DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU
+1 DQ 6 P	1 DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU
+R DQ 6 P	R DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU
+R D3 3 C P	C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification
+R DQ C2D P	C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification
+
+# REMOVED
+1 D3 3C P	Type 1 troisième degré année complémentaire CPU en professionnel de qualification

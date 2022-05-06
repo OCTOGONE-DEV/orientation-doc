@@ -1,0 +1,237 @@
+# Forme d'enseignement secondaire general
+  ====================
+  1 D1 1C,1 D1 2C,1 D1 2D,1 D1 1D,1 D1 1S,1 D1 2S,1 D2 3 G,1 D2 4 G,1 D3 5 G,1 D3 6 G,1 D3 7L G,1 D3 7M G,1 D3 7S G,1 D3 7PES
+
+  r|1 D1 1C|Type 1 premier degré première année commune
+  r|1 D1 2C|Type 1 premier degré deuxième année commune
+  r|1 D1 2D|Type 1 premier degré deuxième année différenciée
+  r|1 D1 1D|Type 1 premier degré première année différenciée
+  r|1 D1 1S|Type 1 premier degré première S (1ère année complémentaire)
+  r|1 D1 2S|Type 1 premier degré deuxième S (2ème année supplémentaire)
+  r|1 D2 3 G|Type 1 deuxième degré troisième général transition
+  r|1 D2 4 G|Type 1 deuxième degré quatrième général transition
+  r|1 D3 5 G|Type 1 troisième degré cinquième général transition
+  r|1 D3 6 G|Type 1 troisième degré sixième général transition
+  r|2 CI 3 G|Type 2 cycle inférieur troisième général transition
+  r|2 CS 4 G|Type 2 cycle supérieur quatrième général transition
+  r|2 CS 5 G|Type 2 cycle supérieur cinquième général transition
+  r|2 CS 6 G|Type 2 cycle supérieur sixième général transition
+  r|2 CS 7 G|Type 2 cycle supérieur septième général transition
+  r|1 D3 7L G|Type 1 troisième degré septième préparatoire à l'enseignement supérieur langues modernes
+  r|1 D3 7M G|Type 1 troisième degré septième préparatoire à l'enseignement supérieur mathématiques
+  r|1 D3 7S G|Type 1 troisième degré septième préparatoire à l'enseignement supérieur sciences
+  r|1 D3 7PES|Type 1 troisième degré septième préparatoire à l'enseignement supérieur
+
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+  r|1 D1 1C|1e commune
+  r|1 D1 2C|2e commune
+  r|1 D1 2D|2e différenciée
+  r|1 D1 1D|1e différenciée
+  r|1 D1 1S|1e supplémentaire
+  r|1 D1 2S|2e supplémentaire
+  r|1 D2 3 G|3e générale
+  r|1 D2 4 G|4e générale
+  r|1 D3 5 G|5e générale
+  r|1 D3 6 G|6e générale
+  r|1 D3 7L G|7e prépa. sup. langues modernes
+  r|1 D3 7M G|7e prépa. sup mathématiques
+  r|1 D3 7S G|7e prépa. sup sciences
+  r|1 D3 7PES|7e prépa. sup
+
+  === REMOVED
+  r|2 CI 3 G|Type 2 cycle inférieur troisième général transition
+  r|2 CS 4 G|Type 2 cycle supérieur quatrième général transition
+  r|2 CS 5 G|Type 2 cycle supérieur cinquième général transition
+  r|2 CS 6 G|Type 2 cycle supérieur sixième général transition
+  r|2 CS 7 G|Type 2 cycle supérieur septième général transition
+
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+
+# Forme d'enseignement secondaire artistique
+  ====================
+  1 D1 1C,1 D1 2C,1 D2 3 AQ,1 D2 4 AQ,1 D2 3 AT,1 D2 4 AT,1 D3 5 AQ,1 D3 6 AQ,1 D3 5 AT,1 D3 6 AT
+
+r|1 D1 1C|1e commune
+r|1 D1 2C|2e commune
+r|1 D2 3 AQ|3e artistique de qualification
+r|1 D2 4 AQ|4e artistique de qualification
+r|1 D2 3 AT|3e artistique de transition
+r|1 D2 4 AT|4e artistique de transition
+r|1 D3 5 AQ|5e artistique de qualification
+r|1 D3 6 AQ|6e artistique de qualification
+r|1 D3 5 AT|5e artistique de transition
+r|1 D3 6 AT|6e artistique de transition
+
+r|1 D1 1C|1e commune
+r|1 D1 2C|2e commune
+r|1 D2 3 AQ|3e qualification
+r|1 D2 4 AQ|4e qualification
+r|1 D2 3 AT|3e transition
+r|1 D2 4 AT|4e transition
+r|1 D3 5 AQ|5e qualification
+r|1 D3 6 AQ|6e qualification
+r|1 D3 5 AT|5e transition
+r|1 D3 6 AT|6e transition
+
+
+=== REMOVED
+
+# Forme d'enseignement secondaire profesionnel
+  ====================
+1 D1 1C,1 D1 2C,1 D2 3 P,1 D2 4 P,R D2 3 P,R D2 4 P,R D2 P 45,1 D3 5 P,1 D3 6 P,1 D3 7B P,R D3 5 P,R D3 6 P,R D3 7B P,R D3 P 45,1 DQ C2D ,1 D4 7 P,1 D4 1 P,1 D4 2 P,1 D4 3 P,1 D4 3C P,1 DQ 4 P,1 DQ 5 P,1 DQ 6 P,R DQ 4 P,R DQ 5 P,R DQ 6 P
+
+r|1 D1 1C|1e commune
+r|1 D1 2C|2e commune
+r|1 D2 3 P|3e professionnelle
+r|1 D2 4 P|3e professionnelle
+r|R D2 3 P|3e professionnelle en alternance
+r|R D2 4 P|4e professionnelle en alternance
+r|R D2 P 45|Enseignement en alternance
+r|1 D3 5 P|5e professionnelle
+r|1 D3 6 P|6e professionnelle
+r|1 D3 7B P|7e professionnelle
+r|R D3 5 P|5e professionnelle en alternance
+r|R D3 6 P|6e professionnelle en alternance
+r|R D3 7B P|7e professionnelle en alternance
+r|R D3 P 45|Enseignement en alternance (2)
+r|1 D4 7 P|Année préparatoire à l'entrée en 1e année du brevet infirmier
+r|1 D4 1 P|1e année en soins infirmiers
+r|1 D4 2 P|2e année en soins infirmiers
+r|1 D4 3 P|3e année en soins infirmiers
+r|1 D4 3C P|3e année complémentaire en soins infirmiers
+r|1 DQ 4 P|4e professionnelle (2)
+r|1 DQ 5 P|5e professionnelle (2)
+r|1 DQ 6 P|6e professionnelle (2)
+r|R DQ 4 P|4e professionnelle en alternance
+r|R DQ 5 P|5e professionnelle en alternance
+r|R DQ 6 P|6e professionnelle en alternance
+
+
+r|1 D1 1C|1e commune
+r|1 D1 2C|2e commune
+r|1 D2 3 P|3e
+r|1 D2 4 P|3e
+r|R D2 3 P|3e en alter.
+r|R D2 4 P|4e en alter.
+r|R D2 P 45|Enseign. en alter.
+r|1 D3 5 P|5e
+r|1 D3 6 P|6e
+r|1 D3 7B P|7e
+r|R D3 5 P|5e en alter.
+r|R D3 6 P|6e en alter.
+r|R D3 7B P|7e en alter.
+r|R D3 P 45|Enseign. en alter. (2)
+r|1 D4 7 P| prép. 1e brevet infirmier
+r|1 D4 1 P|1e soins infirmiers
+r|1 D4 2 P|2e soins infirmiers
+r|1 D4 3 P|3e soins infirmiers
+r|1 D4 3C P|3e compl. soins infirmiers
+r|1 DQ 4 P|4e (2)
+r|1 DQ 5 P|5e (2)
+r|1 DQ 6 P|6e (2)
+r|R DQ 4 P|4e alter. (2)
+r|R DQ 5 P|5e alter. (2)
+r|R DQ 6 P|6e alter. (2)
+
+=== REMOVED
+1 D3 3C P	Type 1 troisième degré année complémentaire CPU en professionnel de qualification
+R D3 3 C P	C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification
+R DQ C2D P	C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification
+
+r|1 D3 7C P|Type 1 troisième degré septième C professionnel qualification
+r|1 DQ C2D P|Type 1 deuxième degré année complémentaire CPU en professionnel de qualification
+
+
+# Forme d'enseignement secondaire technique
+  ====================
+  1 D1 1C,1 D1 2C,1 D2 3 TQ,1 D2 4 TQ,1 D2 4R TQ,1 D2 3 TT,1 D2 4 TT,1 D2 4R TT,1 D3 6 TQ,1 D3 7 TQ,1 D3 5 TT,1 D3 6 TT,1 D3 5 TQ,1 DQ 4 TQ,1 DQ 5 TQ,1 DQ 6 TQ,R DQ 4 TQ,R DQ 5 TQ,R DQ 6 TQ,R D3 5 TQ,R D3 6 TQ,R D3 7 TQ,1 D4 7 TQ
+
+r|1 D1 1C|Type 1 premier degré première année commune
+r|1 D1 2C|Type 1 premier degré deuxième année commune
+r|1 D2 3 TQ|Type 1 deuxième degré troisième technique qualification
+r|1 D2 4 TQ|Type 1 deuxième degré quatrième technique qualification
+r|1 D2 4R TQ|Type 1 deuxième degré quatrième réorientation technique qualification
+r|1 D2 3 TT|Type 1 deuxième degré troisième technique transition
+r|1 D2 4 TT|Type 1 deuxième degré quatrième technique transition
+r|1 D2 4R TT|Type 1 deuxième degré quatrième réorientation technique transition
+r|1 D3 6 TQ|Type 1 troisième degré sixième technique qualification
+r|1 D3 7 TQ|Type 1 troisième degré septième technique qualification
+r|1 D3 5 TT|Type 1 troisième degré cinquième technique transition
+r|1 D3 6 TT|Type 1 troisième degré sixième technique transition
+r|1 D3 5 TQ|Type 1 troisième degré cinquième technique qualification
+r|1 DQ 4 TQ|1 DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+r|1 DQ 5 TQ|1 DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+r|1 DQ C2D TQ|Type 1 deuxième degré année complémentaire CPU en technique de qualification
+r|1 DQ 6 TQ|1 DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+r|R DQ 4 TQ|R DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+r|R DQ 5 TQ|R DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+r|R DQ 6 TQ|R DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+r|R D3 5 TQ|C.E.F.A. troisième degré cinquième technique qualification
+r|R D3 6 TQ|C.E.F.A. troisième degré sixième technique qualification
+r|R D3 7 TQ|C.E.F.A. troisième degré septième technique qualification
+r|1 D4 7 TQ|Type 1 quatrième degré septième technique de qualification E.P.S.C. soins infirmiers
+
+
+r|1 D1 1C|1e commune
+r|1 D1 2C|2e commune
+r|1 D2 3 TQ|3e technique de qualification
+r|1 D2 4 TQ|4e technique de qualification
+r|1 D2 4R TQ|4e technique de qualification (réorientation)
+r|1 D2 3 TT|3e technique de transition
+r|1 D2 4 TT|4e technique de transition
+r|1 D2 4R TT|4e technique de transition (réorientation)
+r|1 D3 6 TQ|6e technique de qualification
+r|1 D3 7 TQ|7e technique de qualification
+r|1 D3 5 TT|5e technique de transition
+r|1 D3 6 TT|6e technique de transition
+r|1 D3 5 TQ|5e technique de qualification
+r|1 DQ 4 TQ|4e technique de qualification
+r|1 DQ 5 TQ|5e technique de qualification
+r|1 DQ 6 TQ|6e technique de qualification
+r|R DQ 4 TQ|4e technique de qualification en alternance
+r|R DQ 5 TQ|5e technique de qualification en alternance
+r|R DQ 6 TQ|6e technique de qualification en alternance
+r|R D3 5 TQ|5e technique de qualification en alternance
+r|R D3 6 TQ|6e technique de qualification en alternance
+r|R D3 7 TQ|7e technique de qualification en alternance
+r|1 D4 7 TQ|Année préparatoire à l'entrée dans l'enseignement supérieur paramédical
+
+
+r|1 D1 1C|1e commune
+r|1 D1 2C|2e commune
+r|1 D2 3 TQ|3e qualif.
+r|1 D2 4 TQ|4e qualif.
+r|1 D2 4R TQ|4e qualif. (réorient.)
+r|1 D2 3 TT|3e transi.
+r|1 D2 4 TT|4e transi.
+r|1 D2 4R TT|4e transi. (réorient.)
+r|1 D3 6 TQ|6e qualif.
+r|1 D3 7 TQ|7e qualif.
+r|1 D3 5 TT|5e transi.
+r|1 D3 6 TT|6e transi.
+r|1 D3 5 TQ|5e qualif. (2)
+r|1 DQ 4 TQ|4e qualif. (2)
+r|1 DQ 5 TQ|5e qualif. (2)
+r|1 DQ 6 TQ|6e qualif. (2)
+r|R DQ 4 TQ|4e qualif. altern.
+r|R DQ 5 TQ|5e qualif. altern.
+r|R DQ 6 TQ|6e qualif. altern.
+r|R D3 5 TQ|5e qualif. altern.
+r|R D3 6 TQ|6e qualif. altern.
+r|R D3 7 TQ|7e qualif. altern.
+r|1 D4 7 TQ|Prépa. sup. paramédical
+
+=== REMOVED
+1 D3 3C TQ	Type 1 troisième degré année complémentaire CPU en technique de qualification
+R D3 3C TQ	C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification
+R DQ C2D TQ	C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification
+
+
+r|1 DQ C2D TQ|Type 1 deuxième degré année complémentaire CPU en technique de qualification
+
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === ===

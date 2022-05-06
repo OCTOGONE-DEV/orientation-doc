@@ -1,0 +1,12 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_SUP_MODLI_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_SUP_MODLI_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_SUP_MODLI">
+         <field column="MODLI_OBJ_ID" name="id" />
+         <field column="MODLI_OBJ_ID" name="MODLI_OBJ_ID" />
+         <field column="MODLI_CODE_TRI" name="MODLI_CODE_TRI" />
+         <field column="MODLI_CODE_ISO" name="MODLI_CODE_ISO" />
+         <field column="MODLI_NOM" name="MODLI_NOM" />
+      </entity>
+   </document>
+</dataConfig>

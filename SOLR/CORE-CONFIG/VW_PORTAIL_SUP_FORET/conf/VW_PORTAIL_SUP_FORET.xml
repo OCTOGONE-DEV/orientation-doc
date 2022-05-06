@@ -1,0 +1,11 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_SUP_FORET_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_SUP_FORET_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_SUP_FORET">
+         <field column="FORET_OBJ_ID" name="id" />
+         <field column="FORET_OBJ_ID" name="FORET_OBJ_ID" />
+         <field column="FORET_CODE" name="FORET_CODE" />
+         <field column="FORET_NOM" name="FORET_NOM" />
+      </entity>
+   </document>
+</dataConfig>

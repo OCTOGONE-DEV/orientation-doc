@@ -1,0 +1,57 @@
+# Connection DB
+- HOPS, CADO, FASE, GOSS
+- GEOG: pour definir localisation
+
+DB 2 Zos = mainframe
+
+mantis = service desk
+
+support.etnic.be mantis
+
+02 800 10 10
+
+
+hops superieur
+cado : important
+goss: 
+$fase implrementation
+
+fase geog - indian
+
+GOSS vincent
+
+cado c  alexis
+
+SELECT 'STRUCTURES_AUTORISEES_ENTITY_NAME' AS entity_type, NS_ETAB_ID
+
+# Solr
+- solution etnic?
+- server specific?
+- demande séparé pour serveur Solr
+- version solr. Derniere  Solr 8.11
+
+# DRUPAL
+j'installe moi même Drupal?
+URL?
+
+# Server DEV
+- meilleur idée de mettre en place DEV/UAT/PROD dès le départ?
+- accès FTP
+- URL?
+
+= = = =
+- estimation base de données?
+- Partage de fichiers , FTP?
+- URL OK?
+- deployement sur le serveur?
+
+
+srvlinux@etnic.be 
+
+alexis : revoit fichiers
+
+filter année académique,
+utilisateru ne pourra saissir des cours antérieurs
+pointer sur la dernier de la DB, 
+
+non c'est ceux qui gèrent la GED (Alfresco, repostiry documentation)

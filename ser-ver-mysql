@@ -1,0 +1,23 @@
+Serveur :  mysql01dev.intranet.etnic.be
+
+Port : 3306 (par défaut)
+
+DB : orientation
+
+Utilisateur : devrgr01
+
+Mot de passe : TH3i7R!Kqr
+
+Droits : SELECT, INSERT, UPDATE, DELETE
+
+
+# DRUSH IMPORT
+
+drush sql-cli < DB_backup_-2022-03-21T13-55-36.mysql
+
+
+
+# MYSQL import (must have rights)
+mysql -u devrgr01 -p -h mysql01dev.intranet.etnic.be -D orientation --binary-mode -o < private-files/backup_migrate/DB_backup_-2022-03-21T13-55-36.mysql.gz
+
+

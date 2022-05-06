@@ -1,0 +1,88 @@
+
+- réponse de vincent Lurde concerant GOSS 
+  + il a demandé a te contacter
+  
+- Réunion ave Julian
+  # Responsable technique
+  FASE - GEOG : Phonenarinh Pholsena
+  HOPS - CADO : Boon Alexis
+  GOSS : Vincent lurde
+  
+  HOPS
+  
+  
+  donnée GEOG intégrée dans view FASE
+  
+- pas de réponse de FASE - Thierry Brouwer, Phonenarinh Pholsena
+
+- denis arnaud pour la config SOLR verra ça la semaine prochaine
+- demande de server Drupal envoyé et traité semaine prochaine
+- organiser une meeting avec chaque responsable DB?
+
+
+= = = =
+- je met en place les different outils d'edition génériques
+- création des rôles
+- config solr locale
+- créer un design corporate.
+= = = 
+plongé dans Scrum
+je vois story technique
+
+
+- Alexis boon a transferer ma demande d'info au different responsable HOPS - CADO, GEOG
+( et toutel es DB daprès Alexis Boon)
+
+Votre demande a été transférée au team leader des projets en question. 
+
+# RDV
+Julian Davreux
+
+
+SELECT * from cado.VW_PORTAIL_EPS_ACTE 
+
+HOPS = A FAIRE, sana vori avec metier
+
+CADO. = touts les portail
+
+
+Pour en savoir plus sur Drupal
+Difference Drupal 8 et 9 est minime. La site orientation utilise Drupal 9.
+
+# Official Drupal User Guide  (FR)
+https://www.drupal.org/files/ebooks-fr-9.1.0.tgz
+
+# Officialultimate guide drupal 9 (FR)
+https://www.acquia.com/fr/resources/e-book/ultimate-guide-drupal-9
+
+# drupal.org Guide (FR)
+https://www.drupal.org/fr/docs/user_guide/fr/index.html
+
+
+https://www.udemy.com/course/drupal-8-webmaster-configurateur/
+
+
+
+
+
+
+filter EPS (prommotion social) que les cours secondaire
+
+formation profesionnel
+
+AFAPME/EFP = foramtion prof
+
+certification
+
+
+      <entity name="_ENTITY_NAME" query="SELECT * FROM CADO.">
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+        <field column="FOR_NOM" name="FOR_NOM" />
+      </entity>
+

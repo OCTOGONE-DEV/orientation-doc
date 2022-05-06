@@ -1,0 +1,28 @@
+R D3 3C TQ	C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification
+R DQ C2D TQ	C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification
+1 DQ C2D TQ	Type 1 deuxième degré année complémentaire CPU en technique de qualification
+1 D2 3 TQ	Type 1 deuxième degré troisième technique qualification
+1 D2 4 TQ	Type 1 deuxième degré quatrième technique qualification
+1 D2 4R TQ	Type 1 deuxième degré quatrième réorientation technique qualification
+1 D2 3 TT	Type 1 deuxième degré troisième technique transition
+1 D2 4 TT	Type 1 deuxième degré quatrième technique transition
+1 D2 4R TT	Type 1 deuxième degré quatrième réorientation technique transition
+1 D3 5 TQ	Type 1 troisième degré cinquième technique qualification
+1 D3 6 TQ	Type 1 troisième degré sixième technique qualification
+1 D3 7 TQ	Type 1 troisième degré septième technique qualification
+1 D3 5 TT	Type 1 troisième degré cinquième technique transition
+1 D3 6 TT	Type 1 troisième degré sixième technique transition
+R D3 5 TQ	C.E.F.A. troisième degré cinquième technique qualification
+R D3 6 TQ	C.E.F.A. troisième degré sixième technique qualification
+R D3 7 TQ	C.E.F.A. troisième degré septième technique qualification
+1 D4 7 TQ	Type 1 quatrième degré septième technique de qualification E.P.S.C. soins infirmiers
+1 DQ 4 TQ	1 DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+R DQ 4 TQ	R DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+1 DQ 5 TQ	1 DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+R DQ 5 TQ	R DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+1 DQ 6 TQ	1 DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+R DQ 6 TQ	R DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+
+
+# REMOVED
+1 D3 3C TQ	Type 1 troisième degré année complémentaire CPU en technique de qualification

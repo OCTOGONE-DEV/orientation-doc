@@ -1,0 +1,198 @@
+# Province
+r|196222|Hainaut
+r|196231|Liège
+r|196217|Bruxelles-capitale
+r|196234|Namur
+r|196218|Luxembourg
+r|196219|Brabant Wallon
+
+# ANNEE ETUDE
+r|1 D2 3 G|2ième
+r|1 D2 4 G|2ième
+r|1 D3 5 G|3ième
+r|1 D3 6 G|3ième
+r|2 CI 3 G|3ième
+r|2 CS 5 G|5ième
+r|2 CS 4 G|4ième
+r|2 CS 6 G|6ième
+r|2 CS 7 G|7ième
+r|1 D3 7L G|7ième
+r|1 D3 7M G|7ième
+r|1 D3 7S G|7ième
+r|1 D3 7PES|7ième
+
+1 D2 3 G,1 D2 4 G,1 D3 5 G,1 D3 6 G,2 CI 3 G,2 CS 5 G,2 CS 4 G,2 CS 6 G,2 CS 7 G,1 D3 7L G,1 D3 7M G,1 D3 7S G,1 D3 7PES
+
+# Niveau d'enseignement
+
+r|SO|Enseignement secondaire ordinaire
+r|SUP|Enseignement supérieur
+r|EPS|Enseignement de promotion sociale
+r|FPS|Formation de promotion sociale
+
+# Forme d'enseignement secondaire - form_enseign_sec
+r|G|Général
+r|T|Technique
+r|A|Artistique
+r|P|Professionnel
+
+
+# Forme d'enseignement supérieur - form_enseign_sup
+r|1|Formation initiale
+r|2|Agrégation de l'enseignement secondaire supérieur
+r|3|Formation de spécialisation
+r|4|Formation continue
+r|5|Formation doctorale
+
+r|3696|Formation initiale
+r|3697|Agrégation de l'enseignement secondaire supérieur
+r|3698|Formation de spécialisation
+r|3699|Formation continue
+r|3700|Formation doctorale
+
+
+# Forme d'enseignement de promotion sociale - form_enseign_promo_social
+r|ESIQ|Enseignement secondaire inférieur de qualification
+r|ESIT |Enseignement secondaire inférieur de transition
+r|ESSQ |Enseignement secondaire supérieur de qualification
+r|ESST |Enseignement secondaire supérieur de transition
+r|SCAA |Enseignement supérieur arts appliques de promotion sociale de type court
+r|SCAG |Enseignement supérieur agronomique de promotion sociale de type court
+r|SCEC |Enseignement supérieur économique de promotion sociale de type court
+r|SCPA |Enseignement supérieur paramedical de promotion sociale de type court
+r|SCPE |Enseignement supérieur pedagogique de promotion sociale de type court
+r|SCSO |Enseignement supérieur social de promotion sociale de type court
+r|SCTE |Enseignement supérieur technique de promotion sociale de type court
+r|SLEC |Enseignement supérieur économique de promotion sociale de type long
+r|SLTE |Enseignement supérieur technique de promotion sociale de type long
+r|ESI|Enseignement secondaire inférieur
+r|ESS|Enseignement secondaire supérieur
+r|SC|Enseignement supérieur de promotion sociale de type court
+r|SL|Enseignement supérieur de promotion sociale de type long
+
+
+=====================================
+r|10134|Enseignement secondaire inférieur de qualification
+r|10135|Enseignement secondaire inférieur de transition
+r|10136|Enseignement secondaire supérieur de qualification
+r|10137|Enseignement secondaire supérieur de transition
+r|10138|Enseignement supérieur arts appliques de promotion sociale de type court
+r|10139|Enseignement supérieur agronomique de promotion sociale de type court
+r|10140|Enseignement supérieur économique de promotion sociale de type court
+r|10141|Enseignement supérieur paramedical de promotion sociale de type court
+r|10142|Enseignement supérieur pedagogique de promotion sociale de type court
+r|10143|Enseignement supérieur social de promotion sociale de type court
+r|10144|Enseignement supérieur technique de promotion sociale de type court
+r|10145|Enseignement supérieur économique de promotion sociale de type long
+r|10146|Enseignement supérieur technique de promotion sociale de type long
+r|10164|Enseignement secondaire inférieur
+r|10165|Enseignement secondaire supérieur
+r|10167|Enseignement supérieur de promotion sociale de type court
+r|10168|Enseignement supérieur de promotion sociale de type long
+
+
+# Forme de formation de promotion sociale - form_forma_promo_social
+r|SC|Supérieur type court
+r|SL|Supérieur type long
+r|SI|Secondaire inférieur
+r|SS|Secondaire supérieur
+=====================================
+r|9976|Supérieur type court
+r|9977|Supérieur type long
+r|9978|Secondaire inférieur
+r|9979|Secondaire supérieur
+
+
+# # Forme d'enseignement secondaire general - form_enseign_sec_gen
+r|1 D1 1C|Type 1 premier degré première année commune
+r|1 D1 1S|Type 1 premier degré première S (1ère année complémentaire)
+r|1 D1 2C|Type 1 premier degré deuxième année commune
+r|1 D1 2S|Type 1 premier degré deuxième S (2ème année supplémentaire)
+r|1 D1 1D|Type 1 premier degré première année différenciée
+r|1 D1 2D|Type 1 premier degré deuxième année différenciée
+r|1 D2 3 G|Type 1 deuxième degré troisième général transition
+r|1 D2 4 G|Type 1 deuxième degré quatrième général transition
+r|1 D3 5 G|Type 1 troisième degré cinquième général transition
+r|1 D3 6 G|Type 1 troisième degré sixième général transition
+r|1 D3 7L G|Type 1 troisième degré septième préparatoire à l'enseignement supérieur langues modernes
+r|1 D3 7M G|Type 1 troisième degré septième préparatoire à l'enseignement supérieur mathématiques
+r|1 D3 7PES|Type 1 troisième degré septième préparatoire à l'enseignement supérieur
+r|1 D3 7S G|Type 1 troisième degré septième préparatoire à l'enseignement supérieur sciences
+r|2 CI 3 G|Type 2 cycle inférieur troisième général transition
+r|2 CS 4 G|Type 2 cycle supérieur quatrième général transition
+r|2 CS 5 G|Type 2 cycle supérieur cinquième général transition
+r|2 CS 6 G|Type 2 cycle supérieur sixième général transition
+r|2 CS 7 G|Type 2 cycle supérieur septième général transition
+1 D1 1C,1 D1 1S,1 D1 2C,1 D1 2S,1 D1 1D,1 D1 2D,1 D2 3 G,1 D2 4 G,1 D3 5 G,1 D3 6 G,1 D3 7L G,1 D3 7M G,1 D3 7PES,1 D3 7S G,2 CI 3 G,2 CS 4 G,2 CS 5 G,2 CS 6 G,2 CS 7 G
+
+
+# #Forme d'enseignement secondaire technique - form_enseign_sec_tech
+r|1 D2 3 TQ|Type 1 deuxième degré troisième technique qualification
+r|1 D2 4 TQ|Type 1 deuxième degré quatrième technique qualification
+r|1 D2 4R TQ|Type 1 deuxième degré quatrième réorientation technique qualification
+r|1 D2 3 TT|Type 1 deuxième degré troisième technique transition
+r|1 D2 4 TT|Type 1 deuxième degré quatrième technique transition
+r|1 D2 4R TT|Type 1 deuxième degré quatrième réorientation technique transition
+r|1 D3 3C TQ|Type 1 troisième degré année complémentaire CPU en technique de qualification
+r|1 D3 5 TQ|Type 1 troisième degré cinquième technique qualification
+r|1 D3 6 TQ|Type 1 troisième degré sixième technique qualification
+r|1 D3 7 TQ|Type 1 troisième degré septième technique qualification
+r|1 D3 5 TT|Type 1 troisième degré cinquième technique transition
+r|1 D3 6 TT|Type 1 troisième degré sixième technique transition
+r|R D3 3C TQ|C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification
+r|R D3 5 TQ|C.E.F.A. troisième degré cinquième technique qualification
+r|R D3 6 TQ|C.E.F.A. troisième degré sixième technique qualification
+r|R D3 7 TQ|C.E.F.A. troisième degré septième technique qualification
+r|1 D4 7 TQ|Type 1 quatrième degré septième technique de qualification E.P.S.C. soins infirmiers
+1 D2 3 TQ,1 D2 4 TQ,1 D2 4R TQ,1 D2 3 TT,1 D2 4 TT,1 D2 4R TT,1 D3 3C TQ,1 D3 5 TQ,1 D3 6 TQ,1 D3 7 TQ,1 D3 5 TT,1 D3 6 TT,R D3 3C TQ,R D3 5 TQ,R D3 6 TQ,R D3 7 TQ,1 D4 7 TQ
+
+
+# # Forme d'enseignement secondaire Artistique - form_enseign_sec_art
+r|1 D2 3 AQ|Type 1 deuxième degré troisième artistique qualification
+r|1 D2 4 AQ|Type 1 deuxième degré quatrième artistique qualification
+r|1 D2 3 AT|Type 1 deuxième degré troisième artistique transition
+r|1 D2 4 AT|Type 1 deuxième degré quatrième artistique transition
+r|1 D3 5 AQ|Type 1 troisième degré cinquième artistique qualification
+r|1 D3 6 AQ|Type 1 troisième degré sixième artistique qualification
+r|1 D3 5 AT|Type 1 troisième degré cinquième artistique transition
+r|1 D3 6 AT|Type 1 troisième degré sixième artistique transition
+1 D2 3 AQ,1 D2 4 AQ,1 D2 3 AT,1 D2 4 AT,1 D3 5 AQ,1 D3 6 AQ,1 D3 5 AT,1 D3 6 AT
+
+# # Forme d'enseignement secondaire Professionnel - form_enseign_sec_pro
+r|1 D2 3 P|Type 1 deuxième degré troisième professionnel qualification
+r|1 D2 4 P|Type 1 deuxième degré quatrième professionnel qualification
+r|R D2 3 P|C.E.F.A. deuxième degré troisième professionnel qualification
+r|R D2 4 P|C.E.F.A. deuxième degré quatrième professionnel qualification
+r|R D2 P 45|C.E.F.A. deuxième degré professionnel qualification
+r|1 D3 3C P|Type 1 troisième degré année complémentaire CPU en professionnel de qualification
+r|1 D3 5 P|Type 1 troisième degré cinquième professionnel qualification
+r|1 D3 6 P|Type 1 troisième degré sixième professionnel qualification
+r|1 D3 7B P|Type 1 troisième degré septième B professionnel qualification
+r|1 D3 7C P|Type 1 troisième degré septième C professionnel qualification
+r|R D3 3 C P|C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification
+r|R D3 5 P|C.E.F.A. troisième degré cinquième professionnel qualification
+r|R D3 6 P|C.E.F.A. troisième degré sixième professionnel qualification
+r|R D3 7B P|C.E.F.A. troisième degré septième professionnel qualification
+r|R D3 P 45|C.E.F.A. troisième degré professionnel qualification
+r|1 D4 1 P|Type 1 quatrième degré première professionnelle qualification
+r|1 D4 2 P|Type 1 quatrième degré deuxième professionnelle qualification
+r|1 D4 3 P|Type 1 quatrième degré troisième professionnelle qualification
+r|1 D4 3C P|Type 1 quatrième degré troisième complémentaire professionnelle qualification
+r|1 D4 7 P|Type 1 quatrième degré septième professionnelle E.P.S.C. soins infirmiers
+r|1 DQ 4 P|1 DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU
+r|1 DQ 4 TQ|1 DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+r|1 DQ 5 P|1 DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU
+r|1 DQ 5 TQ|1 DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+r|1 DQ 6 P|1 DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU
+r|1 DQ 6 TQ|1 DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+r|1 DQ C2D P|Type 1 deuxième degré année complémentaire CPU en professionnel de qualification
+r|1 DQ C2D TQ|Type 1 deuxième degré année complémentaire CPU en technique de qualification
+r|R DQ 4 P|R DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU
+r|R DQ 4 TQ|R DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+r|R DQ 5 P|R DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU
+r|R DQ 5 TQ|R DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+r|R DQ 6 P|R DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU
+r|R DQ 6 TQ|R DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+r|R DQ C2D P|C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification
+r|R DQ C2D TQ|C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification
+1 D2 3 P,1 D2 4 P,R D2 3 P,R D2 4 P,R D2 P 45,1 D3 3C P,1 D3 5 P,1 D3 6 P,1 D3 7B P,1 D3 7C P,R D3 3 C P,R D3 5 P,R D3 6 P,R D3 7B P,R D3 P 45,1 D4 1 P,1 D4 2 P,1 D4 3 P,1 D4 3C P,1 D4 7 P,1 DQ 4 P,1 DQ 4 TQ,1 DQ 5 P,1 DQ 5 TQ,1 DQ 6 P,1 DQ 6 TQ,1 DQ C2D P,1 DQ C2D TQ,R DQ 4 P,R DQ 4 TQ,R DQ 5 P,R DQ 5 TQ,R DQ 6 P,R DQ 6 TQ,R DQ C2D P,R DQ C2D TQ,

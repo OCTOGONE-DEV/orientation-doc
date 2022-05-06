@@ -1,0 +1,61 @@
+demande serveur, URL?
+
+HOPS, CADO, FASE, GOSS, GEOG.
+
+# VERSION
+Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+cd /var/www/html/web/web/
+
+/usr/bin/composer.phar
+
+https://orientationapp01dev.intranet.etnic.be
+
+User : orientation
+password : KvQKh6uVMwEmVaP
+
+
+# global path composer
+  alias composer='/usr/bin/composer.phar'
+
+
+# global install drush 
+  composer global require drush/drush
+  export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+  
+# USER GROUP
+sshdev
+sudodev
+apache
+devrgr01
+
+sudo usermod -a -G drupal sshdev
+sudo usermod -a -G drupal sudodev
+sudo usermod -a -G drupal www-web
+sudo usermod -a -G devrgr01 www-web
+
+sudo useradd -d /home/drupal -m drupal
+
+
+# équipe /database/mysql (olivier fontaine)
+
+équipe Middleware pour avoir un autre accès (et l'utiliser sur Mysql Workbench par ex)
+
+
+  'database' => 'orientation',
+  'username' => 'orientation_dev',
+  'password' => 'RY5ny!AFeq',
+  'prefix' => '',
+  'host' => 'mysql01dev.intranet.etnic.be',
+  'port' => '3306',
+
+# DDEV info
+php 7.4
+Maria DB 10.3
+
+# GOSS URL
+jdbc:db2://udbgateway.etnic.be:50000/DB2D
+udbgateway.etnic.be
+
+
+

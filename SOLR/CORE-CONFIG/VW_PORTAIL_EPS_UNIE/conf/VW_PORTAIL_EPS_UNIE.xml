@@ -1,0 +1,17 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_EPS_UNIE_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+         <entity name="VW_PORTAIL_EPS_UNIE_ENTITY_NAME_NIVE_OBJ_ID" query="SELECT UNIE.UNIE_OBJ_ID, UNIE.UNIE_NOM_LG, UNIE.UNIE_ECTS, UNIE.UNIE_DIPL, UNIE.UNIE_DFER, UNIE.NIFO_OBJ_ID, UNIE.NIVE_OBJ_ID, UNIE.UNIE_CODE , NIVE.NIVE_NOM FROM CADO.VW_PORTAIL_EPS_UNIE UNIE INNER JOIN CADO.VW_PORTAIL_EPS_NIVE NIVE ON NIVE.NIVE_OBJ_ID = UNIE.NIVE_OBJ_ID;">
+            <field column="UNIE_OBJ_ID" name="id" />
+            <field column="UNIE_OBJ_ID" name="UNIE_OBJ_ID" />
+            <field column="UNIE_NOM_LG" name="UNIE_NOM_LG" />
+            <field column="UNIE_ECTS" name="UNIE_ECTS" />
+            <field column="UNIE_DIPL" name="UNIE_DIPL" />
+            <field column="UNIE_DFER" name="UNIE_DFER" />
+            <field column="NIFO_OBJ_ID" name="NIFO_OBJ_ID" />
+            <field column="NIVE_OBJ_ID" name="NIVE_OBJ_ID" />
+            <field column="NIVE_NOM" name="NIVE_NOM" />
+            <field column="UNIE_CODE" name="UNIE_CODE" />
+         </entity> 
+   </document>
+</dataConfig>

@@ -1,0 +1,11 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_SUP_CERT_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_SUP_CERT_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_SUP_CERT">
+         <field column="CERT_OBJ_ID" name="id" />
+         <field column="CERT_OBJ_ID" name="CERT_OBJ_ID" />
+         <field column="CERT_CODE" name="CERT_CODE" />
+         <field column="CERT_NOM" name="CERT_NOM" />
+      </entity>
+   </document>
+</dataConfig>

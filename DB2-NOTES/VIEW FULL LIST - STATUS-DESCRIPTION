@@ -1,0 +1,116 @@
+# TEST 
+VW_PORTAIL_TEC_NIV -> NIV_CODE -X
+VW_PORTAIL_SO_FOR  -> FOR_OBJ_ID ->
+VW_PORTAIL_SO_DGSP -> DGSP_OBJ_ID ->
+VW_PORTAIL_SO_AE   -> 
+
+# MENU LVL1 - VW_PORTAIL_TEC_NIV
+ 
+Enseignement secondaire ordinaire     -> VW_PORTAIL_SO_AE (AE_CODE) -> QT_STRUCTURES_AUTORISEES (only 2021/2022) | note : VW_PORTAIL_SO_DGSP skipped
+Enseignement supérieur                -> VW_PORTAIL_SUP_FORET   (FORET_OBJ_ID)  -> VW_PORTAIL_FORMATION (NS_OBJ_FORET_ID)
+Enseignement de promotion sociale EPS ->  VW_PORTAIL_EPS_NIVE (NIVE_OBJ_ID)  -> VW_PORTAIL_EPS_UNIE (LINK OK) 
+Formation  de promotion sociale EPS -> VW_PORTAIL_EPS_NIFO (NIFO_OBJ_ID)  -> VW_PORTAIL_EPS_UNIE (LINK OK) 
+
+# LIEN ETAB
+ 
+Enseignement secondaire ordinaire     -> QT_STRUCTURES_AUTORISEES (NS_ETAB_ID) duplicate (NUMERO_FASE_ETAB)-> VW_PORTAIL_ORIENTAT (NUMERO_FASE_ETAB)
+Enseignement supérieur                -> VW_PORTAIL_FORMATION () [MERGE VW_PORTAIL_CAMPUS )]  -> VW_PORTAIL_ORIENTAT
+Enseignement de promotion sociale EPS -> VW_PORTAIL_EPS_UNIE -> VW_PORTAIL_ORIENTAT ,no link
+
+# TO DO
+RE-UPLOAD QT_ATUHT  for new filed etablissement
+merge vue campus dans VW_PORTAIL_FORMATION pour liens etablissement
+exclure taxo de filtrage dans les resultats = dont put a driplay
+filtrer date pour QT_AUTH
+enlever entrée qui n'ont pas de resultat
+mettre message si pas de résultats
+recherche par certificat pour le soncdaire prochainement
+inverser leexclusion des entre de menu de filtre afin que les nouveau soit automatiquement pêuplé
+si enleve champs utiliser par facet = bug = page de recherche blanche
+add new view t oprocessor  /admin/config/search/search-api/index/default_index/processors
+
+NUMERO_FASE_ETAB
+Champs dupliqué pour matcher NUMERO_FASE_IMPL de VW_PORTAIL_ORIENTATION - source des adresses des établissements
+
+Forme d'enseignement secondaire
+field_for_code - dropdown
+
+
+VW_PORTAIL_EPS_CATAE - CAT - 18634 - OK !!!
+VW_PORTAIL_EPS_NIFO  - CAT -     4 - OK !!! LVL 1 -> VW_PORTAIL_EPS_UNIE (VIA NIFO_OBJ_ID)
+VW_PORTAIL_EPS_NIVE  - CAT -    16 - OK !!! LVL 1 -> VW_PORTAIL_EPS_UNIE (VIA NIVE_OBJ_ID)
+VW_PORTAIL_SO_AE     - CAT -    80 - OK !!!
+VW_PORTAIL_SO_DGSP   - CAT -    23 - OK !!!
+VW_PORTAIL_SO_FOR    - CAT -     4 - OK !!! LVL 1 -> VW_PORTAIL_SO_DGSP (VIA FOR_OBJ_ID)
+VW_PORTAIL_SO_OBS    - CAT -    69 - OK !!! Option base secondaire
+VW_PORTAIL_SUP_ACA   - CAT -     8 - OK !!!
+VW_PORTAIL_SUP_AREPS - DAT -     ? - VIDE
+VW_PORTAIL_SUP_CERT  - CAT -     4 - OK !!!
+VW_PORTAIL_SUP_COMA  - CAT -     9 - OK !!!
+VW_PORTAIL_SUP_CYC   - CAT -     3 - Ok !!! -> VW_PORTAIL_PE
+VW_PORTAIL_SUP_FORET - CAT -     5 - OK !!! LVL 1 -> VW_PORTAIL_SUP_CYC (NO COMMON VIA FORET_OBJ_ID)
+VW_PORTAIL_TEC_NIV   - CAT -     8 - OK !!! first level
+VW_PORTAIL_SUP_MODHO - CAT -     3 - OK !!!
+VW_PORTAIL_SUP_MODLI - CAT -     5 - OK !!!
+VW_PORTAIL_SUP_MODPE - CAT -     4 - OK !!!
+VW_PORTAIL_SUP_MODPE - CAT -     3 - OK !!!
+VW_PORTAIL_SUP_NIV   - CAT -     8 - OK !!! 0LVL
+-> VW_PORTAIL_SO_FOR    = NO LINK
+-> VW_PORTAIL_SUP_FORET = NO LINK
+-> VW_PORTAIL_EPS_NIFO  = NO LINK
+-> VW_PORTAIL_EPS_NIVE  = NO LINK
+
+VW_PORTAIL_HABILITA. - CAT -  3239 - OK !!!
+VW_SIEL_LM           - CAT - 29489 - OK !!! IMPORT! Options langue 
+                                            HAND_ID (CO_VALEUR, DT_DEBUT,
+                                            NS_ETAB_ID, CO_ETUDE_ID) 
+
+
+VW_PORTAIL_SO_OBG    - DAT -   442 - OK !!! CONTENT TYPE Tech.&art.transition: 3ième degré
+
+VW_PORTAIL_EPS_UNIE  - DAT - 12020 - OK !!! CONTENT TYPE 
+                                            unité d'enseignement promo. social.
+                                            (faux: enseig. profesionnel)
+QT_STRUCTURES_AUTOR. - DAT - 49518 - OK !!! CONTENT TYPE IMPORT enseignement secondaire. manque 3K entrée
+VW_PORTAIL_SUP_CERTI - DAT -   649 - OK !!! CONTENT TYPE certification
+VW_PORTAIL_ORIENTAT. - DAT -  8649 - OK !!! CONTENT TYPE etablissement
+VW_PORTAIL_ORIE.CPMS - DAT -  2818 - OK !!! CONTENT TYPE centre PMS.
+VW_PORTAIL_SUP_DIPL  - DAT -  1327 - OK !!! CONTENT TYPE DIPLOME
+VW_PORTAIL_FORMATION - DAT -  1332 - OK !!! CONTENT TYPE FORMATION === Enseignement supérieur
+
+VW_PORTAIL_PE        - DAT - 15488 - OK !!! CONTENT TYPE Enseignement supérieur FAIRE filtre dernière année scolaire
+VW_PORTAIL_EPS_ACTE  - DAT - 31557 - OK !!! CONTENT TYPE enseig promo. social.
+                                            activité d'enseign ou cours
+                                            DEMANDE FAITES A ALEXIS NO ID
+                                            - HAND_ID RE IMPORT ??? 
+
+drush sql-cli < /home/gregory/Webdev/Client/etnic/Orientation/DB/SERVER ETNIC/DB_backup_CLEANING_SEARCH_API-2022-04-13T12-32-40_MID_DAY_NEW_CONF.sql
+
+
+= = = CHECK ALL CORRESPONDACE FINAL + BIEN CHOISIR ID!!!!!!!!!!!!!!!!!
+
+46 15 / butane, 10k5,g
+
+Entre option OBG et certificat. 
+
+VW_PORTAIL_ORIENTATION
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_ORIENTATION_CPMS/select?indent=true&rows=100000&q.op=OR&q=*%3A*&wt=csv
+
+
+# NOTE Enseignement spécialisé
+Enseignement fondamental ordinaire= lien vers page static
+Enseignement spécialisé = lien vers page static
+
+
+
+# SO_AE = GENERAL
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_AE/select?q=DGSP_OBJ_ID:45%0ADGSP_OBJ_ID:46%0ADGSP_OBJ_ID:49%0ADGSP_OBJ_ID:56%0ADGSP_OBJ_ID:64%0ADGSP_OBJ_ID:65&indent=true&rows=100000&wt=csv
+
+# SO_AE = technique
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_AE/select?q=DGSP_OBJ_ID:51%0ADGSP_OBJ_ID:52%0ADGSP_OBJ_ID:58%0ADGSP_OBJ_ID:59%0ADGSP_OBJ_ID:61%0ADGSP_OBJ_ID:63&indent=true&rows=100000&wt=csv
+
+# SO_AE = Artistique
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_AE/select?q=DGSP_OBJ_ID:47%0ADGSP_OBJ_ID:48%0ADGSP_OBJ_ID:54%0ADGSP_OBJ_ID:55&indent=true&rows=100000&wt=csv
+
+# SO_AE = Profesionnel
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_AE/select?q=DGSP_OBJ_ID:50%0ADGSP_OBJ_ID:53%0ADGSP_OBJ_ID:57%0ADGSP_OBJ_ID:60%0ADGSP_OBJ_ID:62%0ADGSP_OBJ_ID:8801%0ADGSP_OBJ_ID:8863&indent=true&rows=100000&wt=csv

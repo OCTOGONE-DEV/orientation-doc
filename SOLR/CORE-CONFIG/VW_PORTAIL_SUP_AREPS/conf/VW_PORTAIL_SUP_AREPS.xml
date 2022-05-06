@@ -1,0 +1,15 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_SUP_AREPS_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_SUP_AREPS_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_SUP_AREPS">
+         <field column="AREPS_OBJ_ID" name="id" />
+         <field column="AREPS_OBJ_ID" name="AREPS_OBJ_ID" />
+         <field column="AREPS_CODE" name="AREPS_CODE" />
+         <field column="AREPS_NOM" name="AREPS_NOM" />
+         <field column="AREPS_CMIN" name="AREPS_CMIN" />
+         <field column="AREPS_CMAX" name="AREPS_CMAX" />
+         <field column="AREPS_PMIN" name="AREPS_PMIN" />
+         <field column="AREPS_PMAX" name="AREPS_PMAX" />
+      </entity>
+   </document>
+</dataConfig>

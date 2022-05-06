@@ -1,0 +1,101 @@
+# 1 DEGRE
+1 D1 1C	Type 1 premier degré première année commune
+1 D1 2C	Type 1 premier degré deuxième année commune
+1 D1 1S	Type 1 premier degré première S (1ère année complémentaire)
+1 D1 2S	Type 1 premier degré deuxième S (2ème année supplémentaire)
+1 D1 1D	Type 1 premier degré première année différenciée
+1 D1 2D	Type 1 premier degré deuxième année différenciée
+
+
+# 2 DEGRE
+1 D2 3 AQ	Type 1 deuxième degré troisième artistique qualification
+1 D2 4 AQ	Type 1 deuxième degré quatrième artistique qualification
+1 D2 3 AT	Type 1 deuxième degré troisième artistique transition
+1 D2 4 AT	Type 1 deuxième degré quatrième artistique transition
+1 D2 3 G	Type 1 deuxième degré troisième général transition
+1 D2 4 G	Type 1 deuxième degré quatrième général transition
+1 D2 3 P	Type 1 deuxième degré troisième professionnel qualification
+1 D2 4 P	Type 1 deuxième degré quatrième professionnel qualification
+1 D2 3 TQ	Type 1 deuxième degré troisième technique qualification
+1 D2 4 TQ	Type 1 deuxième degré quatrième technique qualification
+1 D2 4R TQ	Type 1 deuxième degré quatrième réorientation technique qualification
+1 D2 3 TT	Type 1 deuxième degré troisième technique transition
+1 D2 4 TT	Type 1 deuxième degré quatrième technique transition
+1 D2 4R TT	Type 1 deuxième degré quatrième réorientation technique transition
+R D2 3 P	C.E.F.A. deuxième degré troisième professionnel qualification
+R D2 4 P	C.E.F.A. deuxième degré quatrième professionnel qualification
+R D2 P 45	C.E.F.A. deuxième degré professionnel qualification
+1 DQ C2D P	Type 1 deuxième degré année complémentaire CPU en professionnel de qualification
+1 DQ C2D TQ	Type 1 deuxième degré année complémentaire CPU en technique de qualification
+
+
+# 3 DEGRE
+1 D3 5 AQ	Type 1 troisième degré cinquième artistique qualification
+1 D3 6 AQ	Type 1 troisième degré sixième artistique qualification
+1 D3 5 AT	Type 1 troisième degré cinquième artistique transition
+1 D3 6 AT	Type 1 troisième degré sixième artistique transition
+1 D3 5 G	Type 1 troisième degré cinquième général transition
+1 D3 6 G	Type 1 troisième degré sixième général transition
+1 D3 7L G	Type 1 troisième degré septième préparatoire à l'enseignement supérieur langues modernes
+1 D3 7M G	Type 1 troisième degré septième préparatoire à l'enseignement supérieur mathématiques
+1 D3 7S G	Type 1 troisième degré septième préparatoire à l'enseignement supérieur sciences
+1 D3 5 P	Type 1 troisième degré cinquième professionnel qualification
+1 D3 6 P	Type 1 troisième degré sixième professionnel qualification
+1 D3 7B P	Type 1 troisième degré septième B professionnel qualification
+1 D3 7C P	Type 1 troisième degré septième C professionnel qualification
+1 D3 3C P	Type 1 troisième degré année complémentaire CPU en professionnel de qualification
+1 D3 7PES	Type 1 troisième degré septième préparatoire à l'enseignement supérieur
+1 D3 5 TQ	Type 1 troisième degré cinquième technique qualification
+1 D3 3C TQ	Type 1 troisième degré année complémentaire CPU en technique de qualification
+1 D3 6 TQ	Type 1 troisième degré sixième technique qualification
+1 D3 7 TQ	Type 1 troisième degré septième technique qualification
+1 D3 5 TT	Type 1 troisième degré cinquième technique transition
+1 D3 6 TT	Type 1 troisième degré sixième technique transition
+R D3 5 P	C.E.F.A. troisième degré cinquième professionnel qualification
+R D3 6 P	C.E.F.A. troisième degré sixième professionnel qualification
+R D3 7B P	C.E.F.A. troisième degré septième professionnel qualification
+R D3 5 TQ	C.E.F.A. troisième degré cinquième technique qualification
+R D3 6 TQ	C.E.F.A. troisième degré sixième technique qualification
+R D3 7 TQ	C.E.F.A. troisième degré septième technique qualification
+2 CI 3 G	Type 2 cycle inférieur troisième général transition
+R D3 P 45	C.E.F.A. troisième degré professionnel qualification
+
+
+# 4 DEGRE
+1 D4 7 P	Type 1 quatrième degré septième professionnelle E.P.S.C. soins infirmiers
+1 D4 1 P	Type 1 quatrième degré première professionnelle qualification
+1 D4 2 P	Type 1 quatrième degré deuxième professionnelle qualification
+1 D4 3 P	Type 1 quatrième degré troisième professionnelle qualification
+1 D4 7 TQ	Type 1 quatrième degré septième technique de qualification E.P.S.C. soins infirmiers
+2 CS 4 G	Type 2 cycle supérieur quatrième général transition
+1 DQ 4 P	1 DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU
+1 DQ 4 TQ	1 DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+R DQ 4 P	R DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU
+R DQ 4 TQ	R DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU
+1 D4 3C P	Type 1 quatrième degré troisième complémentaire professionnelle qualification
+
+
+# 5 DEGRE
+2 CS 5 G	Type 2 cycle supérieur cinquième général transition
+1 DQ 5 P	1 DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU
+1 DQ 5 TQ	1 DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+R DQ 5 TQ	R DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU
+R DQ 5 P	R DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU
+
+# 6 DEGRE
+2 CS 6 G	Type 2 cycle supérieur sixième général transition
+1 DQ 6 P	1 DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU
+1 DQ 6 TQ	1 DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+R DQ 6 TQ	R DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU
+R DQ 6 P	R DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU
+
+
+# 7 DEGRE
+2 CS 7 G	Type 2 cycle supérieur septième général transition
+
+
+# Année complémentaire
+R D3 3 C P	C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification
+R D3 3C TQ	C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification
+R DQ C2D P	C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification
+R DQ C2D TQ	C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification

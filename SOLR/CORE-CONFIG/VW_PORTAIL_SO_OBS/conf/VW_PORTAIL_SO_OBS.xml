@@ -1,0 +1,11 @@
+<dataConfig>
+   <dataSource name="VW_PORTAIL_SO_OBS_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="VW_PORTAIL_SO_OBS_ENTITY_NAME" query="SELECT * FROM CADO.VW_PORTAIL_SO_OBS">
+         <field column="NS_OBJ_ID_OBS" name="id" />
+         <field column="NS_OBJ_ID_OBS" name="NS_OBJ_ID_OBS" />
+         <field column="CO_OBS" name="CO_OBS" />
+         <field column="TE_INTITULE_OBS" name="TE_INTITULE_OBS" />
+      </entity>
+   </document>
+</dataConfig>

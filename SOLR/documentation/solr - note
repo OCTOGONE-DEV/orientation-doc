@@ -1,0 +1,136 @@
+connector : concept solr
+
+- The document-processing pipeline, also known as DPMS, takes the content from a data source,
+
+performs any necessary transformations, and prepares to feed the data to the search engine.
+
+- Solr is hosted in an application container Jetty or Tomcat.
+
+- Solr comes with Jetty out of the box
+
+- Lucene, a free, open-source information retrieval
+software library, is the actual search engine that powers Solr.
+
+- ElasticSearch, build on lucene also
+
+- solrconfig.xml
+Schema.xml contains all of the details about which fields your documents can contain  and how those fields should be accessed with when adding documents to the index or  querying those fields.
+
+Solrconfig.xml is the file that contains most of the parameters for configuring Solr itself.
+
+- Core: A physical search index.
+- Collection: A logical search index that can be made up of multiple cores.
+
+- things get a bit more complex when you introduce SolrCloud Replication and start talking about: Shards, Leaders, Replicas, Nodes, Clusters, and ZooKeeper;
+
+- Once a query is received, it is processed by the query parser. There are many parsers
+available, such as the Standard query parser, DisMax, and eDisMax, which are the most
+commonly used.
+
+- Note: If the term "servlet" is a strange one, don't worry. Think of a servlet as an endpoint
+on a web server. Servlets are specific to the Java world, and are similar to controllers in
+other web technologies.
+
+CORE 
+
+COLLECTION
+= = = 
+
+analita presente mardi et vendredi
+
+
+vincent phone , retructuration = prendra plus de temps 
+
+les DB fournnissent des vues
+
+= = = 
+
+Solr, type de requete DB?
+
+
+= QUESTION = = =
+
+
+= = = = = = = = 
+cd /var/solr/data/server
+cd /opt/solr-8.11.1/bin/
+
+= = = = = = = = 
+Bonjour, pour répondre plus précisement à votre question concernant les requetes/ enregistrement des données indéxées par Solr.
+
+# Indexation # # # 
+
+- Solr supporte nativement l'indexation de document structuré via XML, CSV and JSON. Ce sont les formats privilégié.
+
+- Solr Execute les recherches dans l'index qu'il constitue donc pas de requetes au DB distantes.
+
+- Les mise à jour de son index sont défini et programmé par Cron.
+
+- Il est également possible d'indexer via Data Import Handler DIH) ou Apache Tika.
+
+
+# Enregistrement # # # 
+
+- Il s'agit d'un index inversé enregistré par Lucene* (java) dans differents types de fichiers spécifiques sur le serveur, appelé "document".Donc pas de base de données.
+- Il y a la possibilité d'utiliser NoSQL pour l'enregistrement de l'indexation mais ce n'est pas envisager.
+
+*Solr est est basé sur Lucene
+
+# Synthese # # # 
+Solr n'utilise pas de base de donnée mais des fichiers d'indexation local qu'il constitue par des requetes sur des fichiers XML par exemple. La périodicité de mise à jour est programmée via Cron.
+
+= = =
+
+
+lucene
+
+vous avez deja fait ce genre de structure?
+
+Donc un node avec plusieurs coeur?
+
+un core multiple instance / multiple core?
+
+on vous fourni les data a extraire et vous crée les schema?
+
+on a un specialiste Solr?
+
+Server de DEV et Solr séparé?
+
+acces au interface admin server solr?
+
+Dev environement accès to SOLR? REMOTE WORKING?
+
+publication de github sur le server
+
+= = =
+ 
+version of search API?? drupal support 3.6 to 8
+ 
+ 
+
+docker et remote solr collection?
+
+- on fait une colelction de core?
+
+- SolrCloud?
+
+Dans Solr, un index s’appelle core
+
+solrconfig.xml Schema.xml ?
+
+
+= VOCABULAIRE = = =
+
+core = search index
+
+schema?
+
+connector
+
+collection : 1  index distributed on multiple serveur (culster )
+
+core = 1 phisicla index 
+
+endpoint
+
+collection

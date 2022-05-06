@@ -1,0 +1,17 @@
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_DGSP/select?indent=true&rows=100000&q.op=OR&q=*%3A*&wt=csv
+
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_DGSP/select?q=id:46&indent=true&rows=100000&wt=csv
+
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_DGSP/select?q=id:46*&indent=true&rows=100000&wt=csv
+&fl=Price
+
+http://orientationindex01dev.intranet.etnic.be:8983/solr/VW_PORTAIL_SO_DGSP/select?q=FOR_OBJ_ID:39&indent=true&rows=100000&wt=csv
+
+http://orientationindex01dev.intranet.etnic.be:8983/solr/QT_STRUCTURES_AUTORISEES/select?q=DT_DEBUT:[2022-01-1400:00:00.000Z TO *]&indent=true&rows=100000&wt=csv
+
+
+# US DATE
+http://orientationindex01dev.intranet.etnic.be:8983/solr/QT_STRUCTURES_AUTORISEES/select?q=*:*&fq=DT_DEBUT:[14-01-2022%20TO%2031-12-9999]&indent=true&rows=100000&wt=csv
+
+
+
