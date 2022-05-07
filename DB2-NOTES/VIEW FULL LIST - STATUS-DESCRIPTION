@@ -9,10 +9,10 @@ VW_PORTAIL_SO_AE   ->
 Enseignement secondaire ordinaire     -> VW_PORTAIL_SO_AE (AE_CODE) -> QT_STRUCTURES_AUTORISEES (only 2021/2022) | note : VW_PORTAIL_SO_DGSP skipped
 Enseignement supérieur                -> VW_PORTAIL_SUP_FORET   (FORET_OBJ_ID)  -> VW_PORTAIL_FORMATION (NS_OBJ_FORET_ID)
 Enseignement de promotion sociale EPS ->  VW_PORTAIL_EPS_NIVE (NIVE_OBJ_ID)  -> VW_PORTAIL_EPS_UNIE (LINK OK) 
-Formation  de promotion sociale EPS -> VW_PORTAIL_EPS_NIFO (NIFO_OBJ_ID)  -> VW_PORTAIL_EPS_UNIE (LINK OK) 
+Formation  de promotion sociale EPS   -> VW_PORTAIL_EPS_NIFO (NIFO_OBJ_ID)  -> VW_PORTAIL_EPS_UNIE (LINK OK) 
+
 
 # LIEN ETAB
- 
 Enseignement secondaire ordinaire     -> QT_STRUCTURES_AUTORISEES (NS_ETAB_ID) duplicate (NUMERO_FASE_ETAB)-> VW_PORTAIL_ORIENTAT (NUMERO_FASE_ETAB)
 Enseignement supérieur                -> VW_PORTAIL_FORMATION () [MERGE VW_PORTAIL_CAMPUS )]  -> VW_PORTAIL_ORIENTAT
 Enseignement de promotion sociale EPS -> VW_PORTAIL_EPS_UNIE -> VW_PORTAIL_ORIENTAT ,no link
