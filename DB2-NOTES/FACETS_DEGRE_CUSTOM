@@ -13,6 +13,10 @@ d|5e_second|Je suis en 5e
 d|6e_second|Je suis en 6e
 d|7e_second|Je suis en 7e
 
+
+primaire  - 241351
+1e_second - 241352
+
 d|primaire_select|Je suis en primaire
 d|1e_second_select|Je suis en 1e
 d|2e_second_select|Je suis en 2e
@@ -38,7 +42,7 @@ d|prim_info_vie_second|Je voudrais avoir des informations sur la vie dans le sec
 d|1e_connait_choix_3e|Je voudrais connaître les choix possibles à partir de la 3e
 d|1e_obtenir_ceb|Je voudrais obtenir mon CEB
 
-1e_connait_choix_3e,1 D1 1D
+1e_connait_choix_3e,R D3 7 TQ
 d|1e_connait_choix_3e|Je voudrais connaître les choix possibles à partir de la 3e
 r|1 D1 1D|Je voudrais obtenir mon CEB
 
