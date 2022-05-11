@@ -1,0 +1,81 @@
+"AE_OBJ_ID","AE_CODE","AE_NOM","AE_DTFIN","DGSP_OBJ_ID"
+93,"1 D1 1C",Type 1 premier degré première année commune,,45
+94,"1 D1 2C",Type 1 premier degré deuxième année commune,,45
+95,"1 D1 1S",Type 1 premier degré première S (1ère année complémentaire),"2016-08-31",45
+96,"1 D1 2S",Type 1 premier degré deuxième S (2ème année supplémentaire),,45
+97,"1 D1 1D",Type 1 premier degré première année différenciée,,46
+98,"1 D1 2D",Type 1 premier degré deuxième année différenciée,,46
+101,"1 D2 3 AQ",Type 1 deuxième degré troisième artistique qualification,,47
+102,"1 D2 4 AQ",Type 1 deuxième degré quatrième artistique qualification,,47
+103,"1 D2 3 AT",Type 1 deuxième degré troisième artistique transition,,48
+104,"1 D2 4 AT",Type 1 deuxième degré quatrième artistique transition,,48
+105,"1 D2 3 G",Type 1 deuxième degré troisième général transition,,49
+106,"1 D2 4 G",Type 1 deuxième degré quatrième général transition,,49
+107,"1 D2 3 P",Type 1 deuxième degré troisième professionnel qualification,,50
+108,"1 D2 4 P",Type 1 deuxième degré quatrième professionnel qualification,,50
+109,"1 D2 3 TQ",Type 1 deuxième degré troisième technique qualification,,51
+110,"1 D2 4 TQ",Type 1 deuxième degré quatrième technique qualification,,51
+111,"1 D2 4R TQ",Type 1 deuxième degré quatrième réorientation technique qualification,,51
+112,"1 D2 3 TT",Type 1 deuxième degré troisième technique transition,,52
+113,"1 D2 4 TT",Type 1 deuxième degré quatrième technique transition,,52
+114,"1 D2 4R TT",Type 1 deuxième degré quatrième réorientation technique transition,,52
+115,R D2 3 P,C.E.F.A. deuxième degré troisième professionnel qualification,,53
+116,R D2 4 P,C.E.F.A. deuxième degré quatrième professionnel qualification,,53
+117,"1 D3 5 AQ",Type 1 troisième degré cinquième artistique qualification,,54
+118,"1 D3 6 AQ",Type 1 troisième degré sixième artistique qualification,,54
+119,"1 D3 5 AT",Type 1 troisième degré cinquième artistique transition,,55
+120,"1 D3 6 AT",Type 1 troisième degré sixième artistique transition,,55
+121,"1 D3 5 G",Type 1 troisième degré cinquième général transition,,56
+122,"1 D3 6 G",Type 1 troisième degré sixième général transition,,56
+123,"1 D3 7L G",Type 1 troisième degré septième préparatoire à l'enseignement supérieur langues modernes,,56
+124,"1 D3 7M G",Type 1 troisième degré septième préparatoire à l'enseignement supérieur mathématiques,,56
+125,"1 D3 7S G",Type 1 troisième degré septième préparatoire à l'enseignement supérieur sciences,,56
+126,"1 D3 5 P",Type 1 troisième degré cinquième professionnel qualification,,57
+127,"1 D3 6 P",Type 1 troisième degré sixième professionnel qualification,,57
+128,"1 D3 7B P",Type 1 troisième degré septième B professionnel qualification,,57
+129,"1 D3 7C P",Type 1 troisième degré septième C professionnel qualification,,57
+130,"1 D3 3C P",Type 1 troisième degré année complémentaire CPU en professionnel de qualification,,57
+131,"1 D3 7PES",Type 1 troisième degré septième préparatoire à l'enseignement supérieur,,56
+132,"1 D3 5 TQ",Type 1 troisième degré cinquième technique qualification,,58
+133,"1 D3 3C TQ",Type 1 troisième degré année complémentaire CPU en technique de qualification,,58
+134,"1 D3 6 TQ",Type 1 troisième degré sixième technique qualification,,58
+135,"1 D3 7 TQ",Type 1 troisième degré septième technique qualification,,58
+136,"1 D3 5 TT",Type 1 troisième degré cinquième technique transition,,59
+137,"1 D3 6 TT",Type 1 troisième degré sixième technique transition,,59
+138,R D3 5 P,C.E.F.A. troisième degré cinquième professionnel qualification,,60
+139,R D3 6 P,C.E.F.A. troisième degré sixième professionnel qualification,,60
+140,R D3 7B P,C.E.F.A. troisième degré septième professionnel qualification,,60
+141,R D3 3 C P,C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification,,60
+142,R D3 5 TQ,C.E.F.A. troisième degré cinquième technique qualification,,61
+143,R D3 6 TQ,C.E.F.A. troisième degré sixième technique qualification,,61
+144,R D3 7 TQ,C.E.F.A. troisième degré septième technique qualification,,61
+145,R D3 3C TQ,C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification,,61
+146,"1 D4 7 P",Type 1 quatrième degré septième professionnelle E.P.S.C. soins infirmiers,,62
+147,"1 D4 1 P",Type 1 quatrième degré première professionnelle qualification,,62
+148,"1 D4 2 P",Type 1 quatrième degré deuxième professionnelle qualification,,62
+149,"1 D4 3 P",Type 1 quatrième degré troisième professionnelle qualification,,62
+150,"1 D4 7 TQ",Type 1 quatrième degré septième technique de qualification E.P.S.C. soins infirmiers,,63
+151,"2 CI 3 G",Type 2 cycle inférieur troisième général transition,"2012-08-31",64
+152,"2 CS 4 G",Type 2 cycle supérieur quatrième général transition,"2013-08-31",65
+153,"2 CS 5 G",Type 2 cycle supérieur cinquième général transition,"2012-08-31",65
+154,"2 CS 6 G",Type 2 cycle supérieur sixième général transition,"2013-08-31",65
+155,"2 CS 7 G",Type 2 cycle supérieur septième général transition,"2013-08-31",65
+2541,R D2 P 45,C.E.F.A. deuxième degré professionnel qualification,,53
+2631,R D3 P 45,C.E.F.A. troisième degré professionnel qualification,,60
+8802,"1 DQ 4 P","1 DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU",,8801
+8862,"1 DQ 4 TQ","1 DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU",,8801
+8864,R DQ 4 P,R DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU,,8863
+8865,R DQ 4 TQ,R DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU,,8863
+9604,"1 DQ 5 P","1 DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU",,8801
+9605,"1 DQ 5 TQ","1 DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU",,8801
+9606,R DQ 5 TQ,R DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU,,8863
+9607,R DQ 5 P,R DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU,,8863
+9691,"1 D4 3C P",Type 1 quatrième degré troisième complémentaire professionnelle qualification,,62
+9692,"1 DQ C2D P",Type 1 deuxième degré année complémentaire CPU en professionnel de qualification,,8801
+9693,"1 DQ C2D TQ",Type 1 deuxième degré année complémentaire CPU en technique de qualification,,8801
+9694,R DQ C2D P,C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification,,8863
+9695,R DQ C2D TQ,C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification,,8863
+10451,"1 DQ 6 P","1 DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU",,8801
+10452,"1 DQ 6 TQ","1 DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU",,8801
+10453,R DQ 6 TQ,R DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU,,8863
+10454,R DQ 6 P,R DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU,,8863

@@ -1,0 +1,44 @@
+# DEGRE
+primaire,1e_second,2e_second,3e_second,4e_second,5e_second,6e_second,7e_second
+
+primaire_select,1e_second_select,2e_second_select,3e_second_select,4e_second_select,5e_second_select,6e_second_select,7e_second_select
+
+
+d|primaire|Je suis en primaire
+d|1e_second|Je suis en 1e
+d|2e_second|Je suis en 2e
+d|3e_second|Je suis en 3e
+d|4e_second|Je suis en 4e
+d|5e_second|Je suis en 5e
+d|6e_second|Je suis en 6e
+d|7e_second|Je suis en 7e
+
+d|primaire_select|Je suis en primaire
+d|1e_second_select|Je suis en 1e
+d|2e_second_select|Je suis en 2e
+d|3e_second_select|Je suis en 3e
+d|4e_second_select|Je suis en 4ea
+d|5e_second_select|Je suis en 5e
+d|6e_second_select|Je suis en 6e
+d|7e_second_select|Je suis en 7e
+ 
+
+
+# DEGRE PRIMAIRE -     Mes objectifs en primaire
+prim_connait_ecol_second,prim_connait_opt_srt_enseign_second,prim_temoign_vie_second,prim_info_vie_second
+
+d|prim_connait_ecol_second|Je voudrais connaître les différentes écoles secondaires 
+d|prim_connait_opt_srt_enseign_second|Je voudrais connaître les options et les sortes d'enseignement secondaire
+d|prim_temoign_vie_second|Je voudrais entendre des témoignages sur la vie en secondaire
+d|prim_info_vie_second|Je voudrais avoir des informations sur la vie dans le secondaire
+
+# DEGRE 1 SECOND -     Mes objectifs en primaire
+1e_connait_choix_3e,1e_obtenir_ceb
+
+d|1e_connait_choix_3e|Je voudrais connaître les choix possibles à partir de la 3e
+d|1e_obtenir_ceb|Je voudrais obtenir mon CEB
+
+1e_connait_choix_3e,1 D1 1D
+d|1e_connait_choix_3e|Je voudrais connaître les choix possibles à partir de la 3e
+r|1 D1 1D|Je voudrais obtenir mon CEB
+

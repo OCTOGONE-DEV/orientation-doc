@@ -131,6 +131,7 @@
   <field  name="DT_DEBUT" type="text_general" indexed="true" stored="true"/>
   <field  name="NOM_ETAB" type="text_general" indexed="true" stored="true"/>
   <field  name="AE_CODE" type="text_general" indexed="true" stored="true"/>
+  <field  name="AE_NOM" type="text_general" indexed="true" stored="true"/>
   <field  name="DGSP_CODE" type="text_general" indexed="true" stored="true"/>
   <field  name="ADRS_IMPL" type="text_general" indexed="true" stored="true"/>
   <field  name="RESEAU" type="text_general" indexed="true" stored="true"/>

@@ -1,0 +1,82 @@
+AE_CODE,AE_NOM,AE_NOM_CUSTOM,AE_NOM_CAT_CUSTOM
+1 DQ 4 P,1 DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU,4e professionnelle ,4ieme_pro
+1 DQ 4 TQ,1 DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU,4e technique de qualification ,4ieme_tech_qual
+1 DQ 5 P,1 DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU,5e professionnelle ,5ieme_pro
+1 DQ 5 TQ,1 DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU,5e technique de qualification ,5ieme_tech_qual
+1 DQ 6 P,1 DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU,6e professionnelle ,6ieme_pro
+1 DQ 6 TQ,1 DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU,6e technique de qualification ,6ieme_tech_qual
+R DQ C2D P,C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification,C.E.F.A. degré qualifiant année complémentaire CPU en professionnel de qualification,a_comp_pro_qualif
+R DQ C2D TQ,C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification,C.E.F.A. degré qualifiant année complémentaire CPU en technique de qualification,a_comp_tech_qualif
+R D3 3 C P,C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification,C.E.F.A. degré supérieur année complémentaire CPU en professionnel de qualification,a_comp_pro_sup
+R D3 3C TQ,C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification,C.E.F.A. degré supérieur année complémentaire CPU en technique de qualification,a_comp_tech_sup
+R D2 P 45,C.E.F.A. deuxième degré professionnel qualification,Enseignement en alternance ,2ieme_pro_enseign_alt
+R D2 4 P,C.E.F.A. deuxième degré quatrième professionnel qualification,4e professionnelle en alternance,4ieme_pro_alt
+R D2 3 P,C.E.F.A. deuxième degré troisième professionnel qualification,3e professionnelle en alternance ,3ieme_pro_alt
+R D3 5 P,C.E.F.A. troisième degré cinquième professionnel qualification,5e professionnelle en alternance,5ieme_pro_alt
+R D3 5 TQ,C.E.F.A. troisième degré cinquième technique qualification,5e technique de qualification en alternance,5ieme_tech_qual_alt
+R D3 P 45,C.E.F.A. troisième degré professionnel qualification,Enseignement en alternance ,3ieme_pro_enseign_alt
+R D3 7B P,C.E.F.A. troisième degré septième professionnel qualification,7e professionnelle en alternance,7ieme_pro_alt
+R D3 7 TQ,C.E.F.A. troisième degré septième technique qualification,7e technique de qualification en alternance ,7ieme_tech_qual_alt
+R D3 6 P,C.E.F.A. troisième degré sixième professionnel qualification,6e professionnelle en alternance,6ieme_pro_alt
+R D3 6 TQ,C.E.F.A. troisième degré sixième technique qualification,6e technique de qualification en alternance,6ieme_tech_qual_alt
+R DQ 4 P,R DQ 4 P Degré qualifiant 4e année professionnelle de qualification CPU,4e professionnelle en alternance,4ieme_pro_alt
+R DQ 4 TQ,R DQ 4 TQ Degré qualifiant 4e année technique de qualification CPU,4e technique de qualification en alternance,4ieme_tech_qual_alt
+R DQ 5 P,R DQ 5 P Degré qualifiant 5e année professionnelle de qualification CPU,5e professionnelle en alternance,5ieme_pro_alt
+R DQ 5 TQ,R DQ 5 TQ Degré qualifiant 5e année technique de qualification CPU,5e technique de qualification en alternance,5ieme_tech_qual_alt
+R DQ 6 P,R DQ 6 P Degré qualifiant 6e année professionnelle de qualification CPU,6e professionnelle en alternance,6ieme_pro_alt
+R DQ 6 TQ,R DQ 6 TQ Degré qualifiant 6e année technique de qualification CPU,6e technique de qualification en alternance,6ieme_tech_qual_alt
+1 D2 AQ,Type 1 deuxième degré artistique qualification,2e degré artistique de qualification,2ieme_art_qual
+1 D2 AT,Type 1 deuxième degré artistique transition,2e degré artistique de transition,2ieme_art_transi
+1 D2 4 AQ,Type 1 deuxième degré quatrième artistique qualification,4e artistique de qualification,4ieme_art_qual
+1 D2 4 AT,Type 1 deuxième degré quatrième artistique transition,4e artistique de transition,4ieme_art_transi
+1 D2 4 G,Type 1 deuxième degré quatrième général transition,4e générale ,4ieme_gen
+1 D2 4 P,Type 1 deuxième degré quatrième professionnel qualification,4e professionnelle,4ieme_pro
+1 D2 4R TQ,Type 1 deuxième degré quatrième réorientation technique qualification,4e technique de qualification (réorientation),4ieme_tech_qual_reorient
+1 D2 4R TT,Type 1 deuxième degré quatrième réorientation technique transition,4e technique de transition (réorientation),4ieme_tech_trans_reorient
+1 D2 4 TQ,Type 1 deuxième degré quatrième technique qualification,4e technique de qualification,4ieme_tech_qual
+1 D2 4 TT,Type 1 deuxième degré quatrième technique transition,4e technique de transition,4ieme_tech_trans
+1 D2 TQ,Type 1 deuxième degré technique qualification,2e degré technique de qualification,2ieme_tech_qual
+1 D2 TT,Type 1 deuxième degré technique transition,2e degré technique de transition,2ieme_tech_transi
+1 D2 3 AQ,Type 1 deuxième degré troisième artistique qualification,3e artistique de qualification,3ieme_art_qual
+1 D2 3 AT,Type 1 deuxième degré troisième artistique transition,3e artistique de transition,3ieme_art_transi
+1 D2 3 G,Type 1 deuxième degré troisième général transition,3e générale,3ieme_gen
+1 D2 3 P,Type 1 deuxième degré troisième professionnel qualification,3e professionnelle,3ieme_pro
+1 D2 3 TQ,Type 1 deuxième degré troisième technique qualification,3e technique de qualification,3ieme_tech_qual
+1 D2 3 TT,Type 1 deuxième degré troisième technique transition,3e technique de transition,3ieme_tech_transi
+1 D1 2C,Type 1 premier degré deuxième année commune,2e commune,2ieme_commu
+1 D1 2D,Type 1 premier degré deuxième année différenciée,2e différenciée,2ieme_diff
+1 D1 2S,Type 1 premier degré deuxième S (2ème année supplémentaire),2e supplémentaire,2ieme_supplem
+1 D1 1C,Type 1 premier degré première année commune,1e commune,1ieme_commu
+1 D1 1D,Type 1 premier degré première année différenciée,1e différenciée,1ieme_diff
+1 D4 2 P,Type 1 quatrième degré deuxième professionnelle qualification,2e année en soins infirmiers,2ieme_soin_infi
+1 D4 1 P,Type 1 quatrième degré première professionnelle qualification,1e année en soins infirmiers ,4ieme_soin_infi
+1 D4 7 P,Type 1 quatrième degré septième professionnelle E.P.S.C. soins infirmiers,Année préparatoire à l'entrée en 1e année du brevet infirmier,7ieme_pro_prepa_brv_infi
+1 D4 7 TQ,Type 1 quatrième degré septième technique de qualification E.P.S.C. soins infirmiers,Année préparatoire à l'entrée dans l'enseignement supérieur paramédical,7ieme_tech_prepa_sup_paramed
+1 D4 TQ,Type 1 quatrième degré technique qualification,4e degré technique de qualification,4ieme_tech_qual
+1 D4 3C P,Type 1 quatrième degré troisième complémentaire professionnelle qualification,3e année complémentaire en soins infirmiers,3ieme_comp_soin_inf
+1 D4 3 P,Type 1 quatrième degré troisième professionnelle qualification,3e année en soins infirmiers,3ieme_soin_inf
+1 D3 3C P,Type 1 troisième degré année complémentaire CPU en professionnel de qualification,Type 1 troisième degré année complémentaire CPU en professionnel de qualification,3ieme_pro_comp_qual
+1 D3 3C TQ,Type 1 troisième degré année complémentaire CPU en technique de qualification,Type 1 troisième degré année complémentaire CPU en technique de qualification,3ieme_tech_comp_qual
+1 D3 AQ,Type 1 troisième degré artistique qualification,3e degré artistique de qualification,3ieme_art_qual
+1 D3 AT,Type 1 troisième degré artistique transition,3e degré artistique de transition,3ieme_art_transi
+1 D3 5 AQ,Type 1 troisième degré cinquième artistique qualification,5e artistique de qualification,5ieme_art_qual
+1 D3 5 AT,Type 1 troisième degré cinquième artistique transition,5e artistique de transition,5ieme_art_trans
+1 D3 5 G,Type 1 troisième degré cinquième général transition,5e générale  ,5ieme_gen
+1 D3 5 P,Type 1 troisième degré cinquième professionnel qualification,5e professionnelle,5ieme_pro
+1 D3 5 TQ,Type 1 troisième degré cinquième technique qualification,5e technique de qualification,5ieme_tech_qual
+1 D3 5 TT,Type 1 troisième degré cinquième technique transition,5e technique de transition,5ieme_tech_transi
+1 D3 7B P,Type 1 troisième degré septième B professionnel qualification,7e professionnelle ,7ieme_pro
+1 D3 7C P,Type 1 troisième degré septième C professionnel qualification,7e professionnelle ,7ieme_pro
+1 D3 7PES,Type 1 troisième degré septième préparatoire à l'enseignement supérieur,7e préparatoire à l'enseignement supérieur ,7ieme_prepa_sup
+1 D3 7L G,Type 1 troisième degré septième préparatoire à l'enseignement supérieur langues modernes,7e préparatoire à l'enseignement supérieur - langues modernes,7ieme_prepa_sup_lang
+1 D3 7M G,Type 1 troisième degré septième préparatoire à l'enseignement supérieur mathématiques,7e préparatoire à l'enseignement supérieur - mathématiques,7ieme_prepa_sup_math
+1 D3 7S G,Type 1 troisième degré septième préparatoire à l'enseignement supérieur sciences,7e préparatoire à l'enseignement supérieur - sciences,7ieme_prepa_sup_scien
+1 D3 7 TQ,Type 1 troisième degré septième technique qualification,7e technique de qualification,7ieme_tech_qual
+1 D3 6 AQ,Type 1 troisième degré sixième artistique qualification,6e artistique de qualification,6ieme_art_qual
+1 D3 6 AT,Type 1 troisième degré sixième artistique transition,6e artistique de transition,6ieme_art_transi
+1 D3 6 G,Type 1 troisième degré sixième général transition,6e générale  ,6ieme_gen
+1 D3 6 P,Type 1 troisième degré sixième professionnel qualification,6e professionnelle,6ieme_pro
+1 D3 6 TQ,Type 1 troisième degré sixième technique qualification,6e technique de qualification,6ieme_tech_qual
+1 D3 6 TT,Type 1 troisième degré sixième technique transition,6e technique de transition,6ieme_tech_transi
+1 D3 TQ,Type 1 troisième degré technique qualification,3e degré technique de qualification,3ieme_tech_qual
+1 D3 TT,Type 1 troisième degré technique transition,3e degré technique de transition,3ieme_tech_transi
