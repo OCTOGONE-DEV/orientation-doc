@@ -1,6 +1,11 @@
-host : com.ibm.db2.jcc.DB2Driver
+host : jdbc:db2://udbgateway.etnic.be:50000/DB2D
 port : 50000
 DB : DB2D
-driver name : DB2 LUW
+driver name : DB2 z/OS GOSS
+Class name : com.ibm.db2.jcc.DB2Driver
+URL template : jdbc:db2://udbgateway.etnic.be:50000/DB2D
+default db : GOS2.QT_STRUCTURES_AUTORISEES
+
 user : goss00d
 pass : d00ssog
+
