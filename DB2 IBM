@@ -1,0 +1,6 @@
+host : com.ibm.db2.jcc.DB2Driver
+port : 50000
+DB : DB2D
+driver name : DB2 LUW
+user : goss00d
+pass : d00ssog
