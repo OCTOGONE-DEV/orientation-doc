@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="5" viewBox="0 0 456 5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="456" height="5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grille_de_répétition_37" data-name="Grille de répétition 37" clip-path="url(#clip-path)">
+    <g id="Groupe_3631" data-name="Groupe 3631" transform="translate(-0.5 -1062)">
+      <line id="Ligne_75" data-name="Ligne 75" x2="39" transform="translate(0.5 1064.5)" fill="none" stroke="#3db29e" stroke-width="3"/>
+      <line id="Ligne_76" data-name="Ligne 76" x1="129" transform="translate(39.5 1064.5)" fill="none" stroke="#08636a" stroke-width="3"/>
+      <line id="Ligne_77" data-name="Ligne 77" x2="33" transform="translate(168.5 1064.5)" fill="none" stroke="#b2ff00" stroke-width="3"/>
+      <line id="Ligne_78" data-name="Ligne 78" x1="111" transform="translate(201.5 1064.5)" fill="none" stroke="#00bed2" stroke-width="3"/>
+      <line id="Ligne_79" data-name="Ligne 79" x2="72" transform="translate(312.5 1064.5)" fill="none" stroke="#7b00e5" stroke-width="3"/>
+      <line id="Ligne_80" data-name="Ligne 80" x1="72" transform="translate(384.5 1064.5)" fill="none" stroke="#f19a38" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

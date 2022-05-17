@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">     <title>Je m'oriente.be - Le portail de l'Orientation scolaire</title>
+   
+  </head>
+  <body>
+    <header>
+        <div class="container">
+              <div class="logo">
+                <a href="http://www.federation-wallonie-bruxelles.be" target="_blank">
+                  <span class="d-none d-md-block">
+                      <img alt="Portail Fédération Wallonie-Bruxelles" alt="Logo federation Wallonie-Bruxelles" src="images/logo-FWB.svg" width="150" height="37">
+                  </span>
+                  <span class="d-lg-none">
+                      <img alt="Portail Fédération Wallonie-Bruxelles" src="images/logo-FWB.svg" width="111" height="25">
+                  </span>
+                </a>
+                <span class="separateur"><img src="images/logo_separateur.png" alt="visuel separateur de logo"></span>
+                <a href="#" target="_blank">
+                  <span class="competence"></span>
+                </a>
+              </div>
+        </div>
+      </header>
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
+        <div class="container">
+          <a class="navbar-brand col-lg-2" href="#"><span>Mon</span> orient<span class="rotate">A</span>tion</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown active">
+                <!--J'étudie je me forme-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">J'étudie / Je me forme</a>
+              <ul class="dropdown-menu multi-column columns-3" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col">
+                  <li class="first-level"><a href="#">Le primaire<i class="bi bi-arrow-right-circle-fill"></i></a></li>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ul class="multi-column-dropdown">
+                      <li class="first-level"><a href="#">Le secondaire<i class="bi bi-arrow-right-circle-fill"></i></a></li>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <li><a href="#">Le générale<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Le technique<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">L'artistique<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Le professionnel<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Stages & Alternances (CEFA)<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Promotion sociales<i class="bi bi-arrow-right-short"></i></a></li>
+                        </div>
+                        <div class="col-sm-6">
+                          <li><a href="#">Ecole royale militaire<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Autres formations<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">L'enseignement spécialisé<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Les équivalences<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Liste des etablissements secondaires<i class="bi bi-arrow-right-short"></i></a></li>
+                          <li><a href="#">Quoi de neuf dans le secondaire ?<i class="bi bi-arrow-right-short"></i></a></li>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                  <div class="col-sm-3">
+                    <ul class="multi-column-dropdown">
+                      <li class="first-level"><a href="#">Le supérieur<i class="bi bi-arrow-right-circle-fill"></i></a></li>
+                      <li><a href="#">Haute Ecole / Bachelier<i class="bi bi-arrow-right-short"></i></a></li>
+                      <li><a href="#">Universités / Master<i class="bi bi-arrow-right-short"></i></a></li>
+                    </ul>
+                    <ul class="multi-column-dropdown">
+                      <li class="first-level"><a href="#">Autres formations<i class="bi bi-arrow-right-circle-fill"></i></a></li>
+                      <li><a href="#">Promotions sociales<i class="bi bi-arrow-right-short"></i></a></li>
+                      <li><a href="#">IFAPME<i class="bi bi-arrow-right-short"></i></a></li>
+                      <li><a href="#">EFP<i class="bi bi-arrow-right-short"></i></a></li>
+                    </ul>
+                  </div>
+                 
+                </div>
+              </ul>
+            </li>
+            <!--Fin j'étudie je me forme--><li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Je découvre les métiers</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Je m'informe</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <li><a class="dropdown-item" href="#">Centre PMS</a></li>
+            <li><a class="dropdown-item" href="#">Enseignement à distance</a></li>
+            <li><a class="dropdown-item" href="#">Organismes, institutions, relais, activités orientantes</a></li>
+            <li><a class="dropdown-item" href="#">Allocations et bourses</a></li>
+            <li><a class="dropdown-item" href="#">Infos bien-être</a></li>
+            <li><a class="dropdown-item" href="#">Ressources</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+            <li><a class="dropdown-item" href="#">Questions fréquentes</a></li>
+            <li><a class="dropdown-item" href="#">Utiliser le site monOrientation.be</a></li>
+            <li><a class="dropdown-item" href="#">Poser une question</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Agenda</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+            <li><a class="dropdown-item" href="#">Agenda des évènements</a></li>
+          </ul>
+        </li>
+        <!--persona-->
+        <div class="nav-persona d-lg-none">
+          <h2>Je suis :</h2>
+          <ul>
+            <li><a href="#">Mon espace perso</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Elève</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Parent</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Professionnel de l'Orientation</a></li>
+          </ul>
+        </div>
+      </ul>
+      </div>
+      <div class="nav-persona d-none d-lg-block">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+        <p>Je suis</p>
+        </button>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="container">
+          <div class="offcanvas-header">
+          <a href="#"><i class="bi bi-person-circle"></i>Mon espace perso</a></li>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex">
+          <h2 class="col-lg-3"><i class="bi bi-caret-right-fill"></i>Je suis :</h2>
+          <div class="persona d-flex">
+            <a href="#"><img src="images/p-eleve.svg" alt="Je suis un élève"><span>Elève</span></a>
+            <a href="#"><img src="images/p-parent.svg" alt="Je suis un parent"><span>Parent</span></a>
+            <a href="#"><img src="images/p-enseignant.svg" alt="Je suis un enseignant"><span>Enseignant</span></a>
+            <a href="#"><img src="images/p-pro.svg" alt="Je suis un professionnel de l'orientation"><span>Professionnel <br/>de l'orientation</span></a>
+          </div>
+        </div>
+      </div>
+        </div>
+        </div>
+      </div>
+      </nav>
+      
+      
+     
+      
+      
+<main>
+  <section class="image position-relative">
+      <img src="images/banner.png" title="Mon orientation scolaire" class="img-fluid d-none d-lg-block" alt="Mon orientation scolaire">
+      <img src="images/banner-mobile.png" title="Mon orientation scolaire" class="img-fluid d-lg-none" alt="Mon orientation scolaire">
+      <div class="container">
+          <p class=" col-12 col-lg-4 caption">
+            <span>Etudes, formations, métiers : </span>
+            Les réponses aux questions que tu te poses grâce au portail de l’Orientation.
+          </p>
+      </div>
+  </section>
+  <section class="search_box">
+    <div class="container-lg">
+      <div class="row align-items-center">
+        <div class="col-lg-4 offset-lg-1 d-none d-sm-block left">
+          <h1><span>mon</span> orient<span class="animated">a</span>tion</h1>
+        </div>
+        <div class="height col-lg-7 d-flex justify-content-center align-items-center">
+            <div class="search col">
+              <input type="text" class="form-control" placeholder="Mon école, ma formation, mon métier">
+              <button class="btn"><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="persona-about-agenda">
+  <div class="container-lg">
+    <div class="row">
+      <div class="persona col-lg-8">
+        <h1><i class="bi bi-caret-right-fill"></i>Je suis ...</h1>
+        <div class="persona-list">
+            <a class="student" href="#"><img src="images/eleve.svg" alt="je suis un élève"><span>Elève</span></a>
+            <a class="parents" href="#"><img src="images/parent.svg"><span>Parent</span></a>
+            <a class="professor" href="#"><img src="images/enseignant.svg"><span>Enseignant</span></a>
+            <a class="none" data-bs-toggle="popover" title="Popover title" data-bs-placement="bottom" data-bs-content="And here's some amazing content. It's very engaging. Right?"> <img src="images/aucun.svg"><span>Je ne fais partie d'aucune de ces catégories</span></a>
+            <a class="professional" href="#"><img src="images/professionnel.svg"><span>Professionnel</span></a>
+            
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="about">
+        <h2><i class="bi bi-caret-right-fill"></i>Un mot sur l'orientation</h2>
+          <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+          <a href="#" class="btn-link">En lire d'avantage sur l'orientation </a>
+
+        <h2><i class="bi bi-caret-right-fill"></i>Portail de l'Orientation : mode d'emploi</h2>
+          <p>De l’info sur les études, les formations et les métiers, on en trouve partout et quand on le souhaite sur le net.</p> 
+          <p>Mais cette info, il faut aussi la digérer et savoir quoi en faire.</p>
+            <p>Le Portail vous aidera à faire cette synthèse, afin de mieux vous orienter.</p>
+            <a href="#" class="btn-link"> Regarder la vidéo de présentation</a>
+            <button type="button" class="btn btn-primary">Tout connaitre sur le portail<i class="bi bi-caret-right-fill"></i></button>
+         
+      </div>
+      <!--<div class="agenda">
+        <h1><i class="bi bi-caret-right-fill"></i>Quelques dates</h1>
+        <ul>
+          <li><i class="bi bi-calendar-fill"></i>03/02/2022 <span>Titre de l'événement 1</span></li>
+          <li><i class="bi bi-calendar-fill"></i>03/02/2022 <span>Titre de l'événement 2</span></li>
+        </ul>
+        <button type="button" class="btn btn-primary">Voir tous les évènements</button>
+      </div>-->
+  </div>
+</div>
+</div>
+</section>
+
+<section class="news">
+  <div class="container-lg ">
+    <h1><i class="bi bi-caret-right-fill"></i>Quelques actus</h1>
+      <div class="row d-flex align-items-stretch flex-nowrap flex-row">
+    <div class="d-flex col-9 col-lg-3">
+      <article>
+        <span>Publiée le<time> 04-03-22</time></span>
+        <button type="button" class="btn btn-primary like"><span class="visually-hidden">Aimer cette news</span><i class="bi bi-heart"></i></button>
+      <img src="images/img-news.png" class="img-fluid" alt="Description de l'image">
+      <h1>Titre de la news</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <button type="button" class="btn btn-link">Lire cette actualité</button>
+      </article>
+    </div>
+
+    <div class="d-flex col-9 col-lg-3 ">
+      <article>
+        <span>Publiée le<time> 04-03-22</time></span>
+        <button type="button" class="btn btn-primary like"><span class="visually-hidden">Aimer cette vidéo</span><i class="bi bi-heart"></i></button>
+        <img src="images/img-news.png" class="img-fluid"  alt="Description de l'image">
+        <h1>Titre de la news</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <button type="button" class="btn btn-link">Lire cette actualité</button>
+      </article>
+    </div>
+
+    <div class="d-flex col-9 col-lg-3">
+      <article>
+        <span>Publiée le<time> 04-03-22</time></span>
+        <button type="button" class="btn btn-primary like"><span class="visually-hidden">Aimer cette vidéo</span><i class="bi bi-heart"></i></button>
+      <h1>Titre de la news sur 3 lignes lignes lignes lignes lignes</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <button type="button" class="btn btn-link">Lire cette actualité</button>
+      </article>
+    </div>  
+    
+    <div class="d-flex col-9 col-lg-3">
+      <article>
+        <span>Publiée le<time> 04-03-22</time></span>
+        <button type="button" class="btn btn-primary like"><span class="visually-hidden">Aimer cette vidéo</span><i class="bi bi-heart"></i></button>
+      <h1>Titre de la news sur deux lignes</h1>
+     
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <button type="button" class="btn btn-link">Lire cette actualité</button>
+    </article>
+</div>
+
+    </div>
+    </div>
+</section>
+
+
+  <section class="partners">
+    <div class="container-lg">
+      <div class="row align-items-center">
+        <h1 class="col-lg-5"><i class="bi bi-caret-right-fill"></i>Tu as besoin d'un coup de main ?</h1>
+          <ul class="d-flex col-lg-7 flex-nowrap">
+            <li class="col-5 col-lg-4">
+            <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">
+                <img src="images/logo-bassin.png" class="img-fluid img-thumbnail" alt="La cité des métiers">
+            </a>
+          </li>
+          <li class="col-5 col-lg-4">
+            <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true" aria-controls="collapseExample">
+              <img src="images/logo-bassin.png" class="img-fluid img-thumbnail" alt="La cité des métiers">
+          </a>
+          </li>
+          <li class="col-5 col-lg-4">
+            <a data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample">
+              <img src="images/logo-bassin.png" class="img-fluid img-thumbnail" alt="La cité des métiers">
+          </a>
+          </li>
+        </ul>
+<div class="collapse" id="collapseExample">
+        <h2>La cité des métiers</h2>
+        <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates</p>
+        <a href="#" class="link" target="_blank">Aller vers le site web</a>
+      </div>
+    <div class="collapse" id="collapseExample2">
+      <h2>La cité des métiers</h2>
+        <p>2 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates</p>
+        <a href="#" class="link" target="_blank">Aller vers le site web</a>
+    </div>
+    <div class="collapse" id="collapseExample3">
+      <h2>La cité des métiers</h2>
+        <p>3 Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates</p>
+        <a href="#" class="link" target="_blank">Aller vers le site web</a>
+    </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+  <footer>
+    <div class="top-footer">
+        <div class="container-lg">
+          <div class="row flex-lg-row-reverse">
+            <div class="newsletter col-lg-4">
+              <h1>Je m'inscris et reçois les actualités du portail</h1>
+              <div class="search col">
+                <input type="text" class="form-control" placeholder="Mon adresse mail">
+                <button class="btn"><i class="bi bi-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="contact col-lg-8 d-lg-flex align-items-center">
+              <ul class="col-lg-7">
+                <li><a href="#">Nous écrire</a></li>
+                <li><a href="#">Qui sommes-nous ?</a></li>
+                <li><a href="#">Faq</a></li>
+              </ul>
+                <ul class="social col-lg-5">
+                  <span>Nous trouver sur les réseaux:</span>
+                  <li><a href="#" title="facebook"><i class="bi bi-facebook"></i></a></li>
+                  <li><a href="#" title="facebook"><i class="bi bi-instagram"></i></a></li>
+                  <li><a href="#" title="facebook"><i class="bi bi-tiktok"></i></a></li>
+                  <li><a href="#" title="facebook"><i class="bi bi-snapchat"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="bottom-footer">
+      <div class="container-lg">
+      <ul>
+        <li><a href="#">Informations légales</a></li>
+        <li><a href="#">Plan du site</a></li>
+        <li><a href="#">RGPD</a></li>
+        <li><a href="#">Déclaration d'accessibilité</a></li>
+        <li>Copyright Fédération Wallonie Bruxelles © 2022</li>
+      </ul>
+    </div>
+    </div>
+
+    <nav class="bottom_nav center">
+      <div class="container">
+      <ul class="row">
+          <li class="navportail col-lg-2 col-md-2 col-sm-12 col-xs-12">
+              <a href="http://www.cfwb.be">
+        <img src="http://www.victimes.cfwb.be/fileadmin/sites/victimes/templates/resources/images/logo-FWB.svg" alt="Logo Fédération Wallonie-Bruxelles">
+      </a>        
+          </li>
+          <div class="navcompetence col-lg-10 col-md-10 col-sm-12 col-xs-12">
+          <li class="navenseignement"><a target="_blank" href="http://www.enseignement.be">Enseignement.be</a></li>
+          <li class="navculture"><a target="_blank" href="http://www.culture.be">Culture.be</a></li>
+          <li class="navsport"><a target="_blank" href="http://www.sport-adeps.be">Sport-adeps.be</a></li>
+          <li class="navjeunesse"><a target="_blank" href="http://www.aidealajeunesse.be">Aidealajeunesse.be</a></li>
+          <li class="navrecherche"><a target="_blank" href="http://www.recherchescientifique.be">Recherchescientifique.be</a></li>
+          <li class="navjustice"><a target="_blank" href="http://www.maisonsdejustice.be">Maisonsdejustice.be</a></li>
+          </div>
+          
+      </ul>
+    </div>
+  </nav>
+  <div class="etnic hidden-xs">
+    Les sites de la Fédération sont réalisés avec le support de l'<a class="etnic" target="_blank" href="http://www.etnic.be">ETNIC</a>
+</div>
+  </footer>
+
+
+    
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<script>
+  var offcanvasElementList = [].slice.call(document.querySelectorAll('.offcanvas'))
+var offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
+  return new bootstrap.Offcanvas(offcanvasEl)
+})
+  </script>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+
+
+  </body>
+</html>

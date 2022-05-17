@@ -35,7 +35,8 @@ Champs dupliqué pour matcher NUMERO_FASE_IMPL de VW_PORTAIL_ORIENTATION - sourc
 Forme d'enseignement secondaire
 field_for_code - dropdown
 
-
+GOS2 - VW_SIEL_AAETUDES - supposé 1ieme et 2ieme differencié/commun
+HOPS - VW_PORTAIL_CAMPUS  lien entre les cours supérieur et les établissements
 VW_PORTAIL_EPS_CATAE - CAT - 18634 - OK !!!
 VW_PORTAIL_EPS_NIFO  - CAT -     4 - OK !!! LVL 1 -> VW_PORTAIL_EPS_UNIE (VIA NIFO_OBJ_ID)
 VW_PORTAIL_EPS_NIVE  - CAT -    16 - OK !!! LVL 1 -> VW_PORTAIL_EPS_UNIE (VIA NIVE_OBJ_ID)

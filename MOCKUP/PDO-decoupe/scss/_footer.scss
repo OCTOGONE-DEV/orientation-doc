@@ -1,0 +1,124 @@
+footer{
+    ul{padding:0;margin:0;}
+    .top-footer{background-color:$secondary-600;color:#ffffff;
+        .contact{
+            ul{
+                li{list-style-type:none;border-bottom:1px solid #ffffff;padding:10px 0;
+                    a{text-decoration:none;font-family:$dosis;font-weight:700;color:#ffffff;@include font(18px);} 
+                }
+                 @include media-breakpoint-up(sm) {
+                     li{border-bottom:none;border-right:1px solid #ffffff;padding:10px 30px 10px 30px;display:inline-block;
+                            a{text-decoration:underline;}
+                     }
+                     li:first-child{padding-left:0;}
+                }
+            }
+            .social{ text-align:center;
+                span{text-align:left;display:block;font-family:$dosis;font-weight:700;color:#ffffff;@include font(18px);}
+                li{border:none;display:inline-block;}
+                a{padding:0 15px;@include font(30px);}
+                @include media-breakpoint-up(sm) {
+                    li{padding:0;}
+                    a{padding:0 15px;@include font(20px);}
+                    span{padding-top:10px;text-align:center;}
+                }
+            }
+        }
+        
+        .newsletter{background:rgba(255,255,255,0.1);padding:15px;text-align:center;
+            h1{@extend .text-style;color:#ffffff;}
+            .search{position: relative;}
+            .search input{height: 50px;text-indent: 5px;border: none;border-radius:100px;}
+            .search input:focus{box-shadow: none; border: 2px solid $primary-500;}
+            .search button{position: absolute;top: 5px;right:20px;right: 5px;font-weight:bold;height: 40px;width: 40px;color:$primary-500;border:2px solid $primary-500;border-radius:100px;
+            &:hover{background:$primary-500;color:#ffffff;}
+        }
+    }
+}//fin top footer
+
+.bottom-footer{background:$secondary-500;padding:10px 0;
+    li{list-style-type:none;
+     a{color:$secondary-700;@include font(12px);}
+    }
+
+    @include media-breakpoint-up(sm){
+        ul{display:flex;justify-content:space-between;}
+    }
+    
+}
+
+
+//footer fwb
+.bottom_nav {
+    height: auto;
+    width: 100%;
+    background-color: #eaeaea;
+    padding: 1em 0 1em 0;
+    ul{align-items:center;}
+}
+.bottom_nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 1.2em;
+    font-size: 0.68em;
+}
+.bottom_nav ul li a {
+    color: #000;
+    text-decoration: none;}
+
+.bottom_nav ul li.navenseignement, .bottom_nav ul li.navculture, .bottom_nav ul li.navsport, .bottom_nav ul li.navjeunesse, .bottom_nav ul li.navrecherche, .bottom_nav ul li.navjustice {
+    border-right: 1px solid black;
+    padding-left: 1em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 1em;
+display:block;
+@include media-breakpoint-up(sm) {
+    display:inline-block;
+}
+
+}
+
+    .navenseignement a {
+        padding: 10px 0px 10px 25px;
+        background: transparent url("../../dist/css/img/mini_logo_enseignement.png") no-repeat scroll 0% 50%;}
+    .navculture a {
+        background: transparent url("../../dist/css/img/mini_logo_culture.png") no-repeat scroll 0% 50%;
+        padding: 10px 0px 10px 25px;}
+    .navsport a {
+         background: transparent url("../../dist/css/img/mini_logo_sport.png") no-repeat scroll 0% 50%;
+        padding: 10px 0px 10px 25px;}
+    .navjeunesse a {
+            background: transparent url("../../dist/css/img/mini_logo_jeunesse.png") no-repeat scroll 0% 50%;
+            padding: 10px 0px 10px 25px;
+        }
+    .navrecherche a {
+            background: transparent url("../../dist/css/img/mini_logo_recherche.png") no-repeat scroll 0% 50%;
+            padding: 10px 0px 10px 25px;
+        }
+    .navjustice a {
+            background: transparent url("../../dist/css/img/mini_logo_justice.png") no-repeat scroll 0% 50%;
+            padding: 10px 0px 10px 25px;
+        }
+
+        .etnic {
+            font-size: 1em;
+            color: #000;
+            text-align: center;
+            padding: 0.5em;
+            margin: auto;
+        a{padding:0;font-weight:600;}
+    }
+li.navportail {
+    z-index: 8;
+}
+.navportail a {
+    vertical-align: top !important;
+}
+.navcompetence {
+    z-index: 7;}
+    
+
+}
+    

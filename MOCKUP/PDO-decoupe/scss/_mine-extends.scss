@@ -1,0 +1,54 @@
+@import "_mine-variables.scss";
+@import "_mine-mixins.scss";
+@import url('');
+
+.h2-style{
+    color:$third-800;
+    @include font(24px);
+    @include line(28px);
+    font-weight:600;
+    margin:0;
+    padding:10px 0;
+    font-family:$dosis;
+    i{color:$third-500;padding-right:15px;}
+}
+
+.text-style{
+    font-family:$font-text; 
+    padding:0 0 10px 0;
+    color:$text-color;
+    @include font(14px);
+    @include line(20px);
+    padding:0;}
+
+.btn-primary-style{
+    background:$primary-500;
+    line-height:40px!important;
+    font-size:1.2rem!important;
+    font-family:$dosis;
+    font-weight:700!important;
+    text-align:center;
+    padding:5px 15px 5px 25px!important;
+    i{padding-left:10px;}
+}
+
+.btn-link-style{
+    color:$primary-500;
+    font-family:$dosis;
+    font-weight:700!important;
+    @include font(14px);
+    @include line(14px);
+    padding-right:25px;
+    @include after;
+    display:inline-block;
+    &:after{
+        display: inline-block;
+        content: "";
+        height:19px;
+        width:19px;
+        background-repeat: no-repeat;
+        background:url('../../dist/css/img/arrow-right-circle-fill.svg');
+       
+    }
+
+}

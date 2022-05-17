@@ -1,0 +1,31 @@
+<dataConfig>
+   <dataSource name="IMPLANTATIONS_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="IMPLANTATIONS_ENTITY_NAME" query="SELECT * FROM FASE.VW_PORTAIL_ORIENTATION">
+      	 <field column="CUSTOM_ETAB_ID" name="id" />
+         <field column="CUSTOM_ETAB_ID" name="CUSTOM_ETAB_ID" />
+         <field column="RESEAU" name="RESEAU" />
+         <field column="NUMERO_FASE_PO" name="NUMERO_FASE_PO" />
+         <field column="NOM_PO" name="NOM_PO" />
+         <field column="ADRS_PO" name="ADRS_PO" />
+         <field column="CP_LOC_COM_PO" name="CP_LOC_COM_PO" />
+         <field column="NUMERO_FASE_ETAB" name="NUMERO_FASE_ETAB" />
+         <field column="NOM_ETAB" name="NOM_ETAB" />
+         <field column="ADRS_ETAB" name="ADRS_ETAB" />
+         <field column="CP_LOC_COM_ETAB" name="CP_LOC_COM_ETAB" />
+         <field column="PROV_ETAB" name="PROV_ETAB" />
+         <field column="CARACTERE" name="CARACTERE" />
+         <field column="CONFESSION" name="CONFESSION" />
+         <field column="QUALITE_DIRECTEUR_ETAB" name="QUALITE_DIRECTEUR_ETAB" />
+         <field column="NOM_DIRECTEUR_ETAB" name="NOM_DIRECTEUR_ETAB" />
+         <field column="PRENOM_DIRECTEUR_ETAB" name="PRENOM_DIRECTEUR_ETAB" />
+         <field column="NUMERO_FASE_IMPL" name="NUMERO_FASE_IMPL" />
+         <field column="DT_DEBUT" name="DT_DEBUT" />
+         <field column="DT_FIN" name="DT_FIN" />
+         <field column="NOM_IMPL" name="NOM_IMPL" />
+         <field column="ADRS_IMPL" name="ADRS_IMPL" />
+         <field column="CP_LOC_COM_IMPL" name="CP_LOC_COM_IMPL" />
+         <field column="UNITE" name="UNITE" />
+      </entity>
+   </document>
+</dataConfig>

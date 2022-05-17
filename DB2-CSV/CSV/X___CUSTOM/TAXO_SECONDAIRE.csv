@@ -1,0 +1,146 @@
+TAXO_SECONDAIRE
+primaire_select
+1e_second_select
+2e_second_select
+3e_second_select
+4e_second_select
+5e_second_select
+6e_second_select
+7e_second_select
+presa_mdr
+primaire
+prim_connait_ecol_second
+prim_connait_opt_srt_enseign_second
+prim_info_vie_second
+prim_temoign_vie_second
+1e_connait_choix_3e
+1e_obtenir_ceb
+1e_second
+2e_second
+2e_orient_enseign_gen
+2e_orient_enseign_tech_pro
+2e_exerc_metier_fin_second
+2e_tmp_partiel_ecol_entrepr
+2e_pas_ceb
+3e_second
+3e_chang_opt_filiere
+3e_exerc_metier_fin_second
+3e_reorient_fin_3e
+3e_tmp_partiel_ecol_entrepr
+4e_second
+4e_chang_opt_filiere
+4e_exerc_metier_fin_second
+4e_reorient_fin_4e
+4e_tmp_part_ecol_entrep
+5e_second
+5e_connait_diff_poss_sup
+5e_connait_hecol_univ_plait_m
+5e_decouv_metier_mond_trav
+6e_second
+6e_connait_apport_7e
+6e_connait_diff_bach_mstr
+6e_connait_diff_hecol_univ
+6e_connait_diff_poss_sup
+6e_connait_ecol_offre_7e
+6e_connait_hecol_univ_plait_m
+6e_real_proj_etrang_fin_6e
+7e_second
+7e_connait_diff_bach_mstr
+7e_connait_diff_hecol_univ
+7e_connait_hecol_univ_mat_m
+7e_real_proj_fin_7e
+Enseignement en alternance
+R D3 P 45
+R D2 P 45
+7e professionnelle
+1 D3 7C P
+1 D3 7B P
+6_tech_quali
+1 D3 6 TQ
+1 DQ 6 TQ
+6_tech_qualif_alt
+R DQ 6 TQ
+R D3 6 TQ
+6e professionnelle en alternance
+R DQ 6 P
+R D3 6 P
+5_tech_qualif_alt
+R D3 5 TQ
+R DQ 5 TQ
+6e professionnelle
+1 DQ 6 P
+1 D3 6 P
+5_tech_qualif
+1 DQ 5 TQ
+1 D3 5 TQ
+1 D1 1C
+1 D1 1D
+1 D1 2C
+1 D1 2D
+1 D1 2S
+1 D2 3 AQ
+1 D2 3 AT
+1 D2 3 G
+1 D2 3 P
+1 D2 3 TQ
+1 D2 3 TT
+1 D2 4 AQ
+1 D2 4 AT
+1 D2 4 G
+1 D2 4 TT
+1 D2 4R TQ
+1 D2 4R TT
+1 D2 AQ
+1 D2 AT
+1 D2 TQ
+1 D2 TT
+1 D3 3C P
+1 D3 3C TQ
+1 D3 5 AQ
+1 D3 5 AT
+1 D3 5 TT
+1 D3 6 AQ
+1 D3 6 AQ
+1 D3 6 AT
+1 D3 6 G
+1 D3 6 TT
+1 D3 7 TQ
+1 D3 7L G
+1 D3 7M G
+1 D3 7PES
+1 D3 7S G
+1 D3 AQ
+1 D3 AT
+1 D3 TQ
+1 D3 TT
+1 D4 1 P
+1 D4 2 P
+1 D4 3 P
+1 D4 3C P
+1 D4 7 P
+1 D4 7 TQ
+1 D4 TQ
+R D2 3 P
+R D3 3 C P
+R D3 3C TQ
+R DQ C2D TQ
+R D3 7 TQ
+R D3 7B P
+1 D3 5 G
+R DQ 4 TQ
+R DQ C2D P
+5e professionnelle en alternance
+R D3 5 P
+R DQ 5 P
+4e professionnelle en alternance
+R DQ 4 P
+R D2 4 P
+5e professionnelle
+1 D3 5 P
+1 DQ 5 P
+4e professionnelle
+1 D2 4 P
+1 DQ 4 P
+1 D2 4 TQ
+1 DQ 4 TQ
+4_tech_qualif

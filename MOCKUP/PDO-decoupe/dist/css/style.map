@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../../scss/style.scss",
+		"../../scss/_homepage.scss"
+	],
+	"sourcesContent": [
+		"@import \"homepage\";\r\n//@import \"../scss/vendor/px-videos\";",
+		"//body{background:blue;}\r\n\r\nh2 {\r\n    font-family: Poppins;\r\n    font-weight: 500;\r\n    margin: 0 0 20px;\r\n  }\r\n  .timer {\r\n    margin: 0 0 45px;\r\n    font-family: sans-serif;\r\n    color: #fff;\r\n    display: inline-block;\r\n    font-weight: 100;\r\n    text-align: center;\r\n    font-size: 30px;\r\n  }\r\n  .timer div {\r\n    padding: 10px;\r\n    border-radius: 3px;\r\n    background: #000000;\r\n    display: inline-block;\r\n    font-family: Oswald;\r\n    font-size: 26px;\r\n    font-weight: 400;\r\n    width: 80px;\r\n  }\r\n  .timer .smalltext {\r\n    color: #888888;\r\n    font-size: 12px;\r\n    font-family: Poppins;\r\n    font-weight: 500;\r\n    display: block;\r\n    padding: 0;\r\n    width: auto;\r\n  }\r\n  .timer #time-up {\r\n    margin: 8px 0 0;\r\n    text-align: left;\r\n    font-size: 14px;\r\n    font-style: normal;\r\n    color: #000000;\r\n    font-weight: 500;\r\n    letter-spacing: 1px;\r\n  }\r\n\r\n\r\n  /*override bootstrap*/\r\n  .navbar-nav {flex-direction:row;flex-wrap:wrap;}\r\n  .navbar-collapse{display:flex;}\r\n\r\n  .video .container {\r\n    margin: 50px auto;\r\n    max-width: 500px;\r\n  }"
+	],
+	"names": [],
+	"mappings": ";ACEA,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,OAAO;EACpB,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,QAAQ;CACjB;;;AACD,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,QAAQ;EAChB,WAAW,EAAE,UAAU;EACvB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAChB;;;AACD,AAAA,MAAM,CAAC,GAAG,CAAC;EACT,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,IAAI;CACZ;;;AACD,AAAA,MAAM,CAAC,UAAU,CAAC;EAChB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,OAAO;EACpB,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;CACZ;;;AACD,AAAA,MAAM,CAAC,QAAQ,CAAC;EACd,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;CACpB;;AAGD,sBAAsB;;AACtB,AAAA,WAAW,CAAC;EAAC,cAAc,EAAC,GAAG;EAAC,SAAS,EAAC,IAAI;CAAG;;;AACjD,AAAA,gBAAgB,CAAA;EAAC,OAAO,EAAC,IAAI;CAAG;;;AAEhC,AAAA,MAAM,CAAC,UAAU,CAAC;EAChB,MAAM,EAAE,SAAS;EACjB,SAAS,EAAE,KAAK;CACjB"
+}

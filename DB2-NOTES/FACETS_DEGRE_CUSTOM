@@ -36,7 +36,7 @@ d|prim_connait_opt_srt_enseign_second|Je voudrais connaître les options et les 
 d|prim_temoign_vie_second|Je voudrais entendre des témoignages sur la vie en secondaire
 d|prim_info_vie_second|Je voudrais avoir des informations sur la vie dans le secondaire
 
-# DEGRE 1 SECOND -     Mes objectifs en primaire
+# DEGRE 1 SECOND -     Mes objectifs en 1e
 1e_connait_choix_3e,1e_obtenir_ceb
 
 d|1e_connait_choix_3e|Je voudrais connaître les choix possibles à partir de la 3e
@@ -45,4 +45,14 @@ d|1e_obtenir_ceb|Je voudrais obtenir mon CEB
 1e_connait_choix_3e,R D3 7 TQ
 d|1e_connait_choix_3e|Je voudrais connaître les choix possibles à partir de la 3e
 r|1 D1 1D|Je voudrais obtenir mon CEB
+
+
+# DEGRE 1 SECOND -     Mes objectifs 2e
+2e_orient_enseign_gen,2e_orient_enseign_tech_pro,2e_exerc_metier_fin_second,2e_tmp_partiel_ecol_entrepr,2e_pas_ceb
+
+r|2e_orient_enseign_gen|Je voudrais m'orienter vers l'enseignement Général
+r|2e_orient_enseign_tech_pro|Je voudrais m'orienter vers l'enseignement Technique ou Professionnel
+r|2e_exerc_metier_fin_second|Je voudrais exercer un métier dès la fin du secondaire
+r|2e_tmp_partiel_ecol_entrepr|Je voudrais être à temps partiel à l'école et dans une entreprise
+r|2e_pas_ceb|Je n'ai pas obtenu mon CEB
 
