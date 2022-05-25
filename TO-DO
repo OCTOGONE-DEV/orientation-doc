@@ -1,3 +1,136 @@
-timesheet
 créer documentation info serveur
-filter EPS (prommotion social) que les cours secondaire
+
+uniquement etablissement, + cours avec boutoin
+SEUL : 1 D3 7 TQ,1 D3 7B P, 1 D3 7C P fonctionne
+
+Data CPMS
+KO### Superieur
+Page details
+fiche
+transformer "mes objectif en *" en "mes objectifs"
+OK/// uniquement etablissement
+OK/// filtre 4e  / Je voudrais être à temps partiel à l'école et dans une entreprise
+intitulé menu de selection
+OK/// doublon nom region
+OK/// doublon nom reseau
+mettre champs saisie predictive
+PAS d|1 D3 7C P|Type 1 troisième degré septième C professionnel qualification ???
+(Edit 7e - Connaître les écoles qui proposent une 7e facet)
+SEUL : 1 D3 7 TQ,1 D3 7B P, 1 D3 7C P fonctionne
+1 D3 7C P - 6e - pas dans fichier michel
+enlever intitule code postal
+province affichage
+enlever twitg debug sur serveur dev
+Enseignement specialisé
+remettre champs URL
+
+24013
+24245
+
+24756
+25397
+
+#1 D3 7C P
+21550
+21596
+
+#1 D3 7B P
+20557
+21549
+
+# 1 D3 7 TQ
+20421
+20556
+
+6e_connait_ecol_offre_7e
+COL AI
+select province reste afficher en cahgeant directement degre
+reduc eatb pour DEGRE_1_2
+coorect adress etab DEGRE_1_2
+changer label filed from impl to etab globaly
+verif cmap groupe fromulaire DB
+1 etab manquant
+tester estampius sur serveur ETNIC pour lien
+mettre icon tel
+mettre icon url
+image large droit full hauteur
+empty page load
+scneraion recherche sangwoo = plus d'anée de cours
+mettre titre dans select
+manque prepa science, math, etc...
+
+probleme filtre provinc eavec "Je voudrais changer d'option(s) dans ma filière
+"
+# REMETTRE SUP
+d|7e_connait_hecol_univ_mat_m|Je voudrais connaître les hautes écoles et universités où je peux étudier la matière qui me plaît
+
+d|6e_connait_hecol_univ_plait_m|Je voudrais connaître les hautes écoles et universités où je peux étudier la matière qui me plaît
+
+d|5e_connait_hecol_univ_plait_m|Je voudrais connaître les hautes écoles et universités où je peux étudier la matière qui me plaît
+
+
+748
+
+
+41161
+41311
+241317
+
+241322
+
+
+# regroupement
+Je voudrais être à temps partiel à l'école et dans une entreprise	Alternance (CEFA) / Autres formations / IFAPME / EFP		R D2 3 P, R D2 P 45
+
+
+
+
+
+Top
+ClearClipboard
+Find "	"
+StartSelect
+Key END
+EndSelect
+Copy
+Key END
+Loop 0
+Find "^c"
+IfFound
+Delete
+Else
+Find "	"
+StartSelect
+Key END
+EndSelect
+Copy
+Key END
+EndIf
+EndLoop
+
+
+InsertMode
+ColumnModeOn
+HexOff
+Top
+ClearClipboard
+Find "	"
+StartSelect
+Key END
+EndSelect
+Copy
+Key END
+Loop 0
+Find "^c"
+IfFound
+Delete
+Else
+Find "	"
+StartSelect
+Key END
+EndSelect
+Copy
+Key END
+EndIf
+EndLoop
+

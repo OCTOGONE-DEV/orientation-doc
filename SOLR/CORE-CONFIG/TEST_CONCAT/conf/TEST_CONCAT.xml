@@ -1,0 +1,35 @@
+<dataConfig>
+   <dataSource name="TEST_CONCAT_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
+   <document>
+      <entity name="TEST_CONCAT_NAME" query="
+      SELECT DISTINCT NOM_ETAB, GROUP_CONCAT(ADRS_IMPL)
+      FROM FASE.VW_PORTAIL_ORIENTATION
+      GROUP BY NOM_ETAB;">
+         <field column="ADRS_IMPL" name="id" />
+         <field column="NOM_ETAB" name="NOM_ETAB" />
+         <field column="ADRS_IMPL" name="ADRS_IMPL" />
+      </entity>
+   </document>
+</dataConfig>
+select
+  NOM_ETAB,
+  LISTAGG(id, ', ') WITHIN GROUP(ORDER BY id ASC) as ids
+from FASE.VW_PORTAIL_ORIENTATION
+group by ADRS_IMPL;
+
+
+SELECT NOM_ETAB, LISTAGG(ADRS_IMPL, ',') as ADRS_IMPL
+FROM FASE.VW_PORTAIL_ORIENTATION
+GROUP BY NOM_ETAB
+
+
+SELECT NOM_ETAB, GROUP_CONCAT(ADRS_IMPL SEPARATOR ", ") as ADRS_IMPL
+FROM FASE.VW_PORTAIL_ORIENTATION
+GROUP BY NOM_ETAB
+
+
+SELECT NOM_ETAB,
+        LISTAGG(ADRS_IMPL, ', ') WITHIN GROUP(ORDER BY lastname)
+        AS employees
+     FROM FASE.VW_PORTAIL_ORIENTATION
+     GROUP BY NOM_ETAB

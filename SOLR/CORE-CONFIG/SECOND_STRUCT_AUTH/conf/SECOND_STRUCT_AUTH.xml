@@ -1,7 +1,7 @@
 <dataConfig>
    <dataSource name="SECOND_STRUCT_AUTH_SOURCE" type="JdbcDataSource" driver="com.ibm.db2.jcc.DB2Driver" url="jdbc:db2://udbgateway.etnic.be:50000/DB2D" user="goss00d" password="d00ssog" />
    <document>
-      <entity name="SECOND_STRUCT_AUTH_NAME" query="SELECT DISTINCT ENSEIGN.NS_ETAB_ID, ENSEIGN.NS_SA_ID, ENSEIGN.CO_ANNEE_ETUDES, ENSEIGN.TE_INTITULE, ENSEIGN.DT_DEBUT, ENSEIGN.DT_FIN,ETAB.NOM_ETAB, ETAB.ADRS_IMPL, ETAB.RESEAU, ETAB.PROV_ETAB, ETAB.TELEPHONE_ETAB, ETAB.URL_ETAB, ETAB.CP_LOC_COM_IMPL, ETAB.NUMERO_FASE_ETAB, ANNEE.AE_CODE, ANNEE.AE_NOM, CYCLE.DGSP_OBJ_ID, ANNEE.DGSP_OBJ_ID, CYCLE.FOR_OBJ_ID, CYCLE.DGSP_CODE
+      <entity name="SECOND_STRUCT_AUTH_NAME" query="SELECT DISTINCT ENSEIGN.NS_ETAB_ID, ENSEIGN.NS_SA_ID, ENSEIGN.CO_ANNEE_ETUDES, ENSEIGN.TE_INTITULE, ENSEIGN.DT_DEBUT, ENSEIGN.DT_FIN,ETAB.NOM_ETAB, ETAB.ADRS_ETAB, ETAB.RESEAU, ETAB.PROV_ETAB, ETAB.TELEPHONE_ETAB, ETAB.URL_ETAB, ETAB.CP_LOC_COM_ETAB, ETAB.NUMERO_FASE_ETAB, ANNEE.AE_CODE, ANNEE.AE_NOM, CYCLE.DGSP_OBJ_ID, ANNEE.DGSP_OBJ_ID, CYCLE.FOR_OBJ_ID, CYCLE.DGSP_CODE
         FROM
           GOS2.VW_STRUCTURES_AUTORISEES ENSEIGN
           LEFT JOIN FASE.VW_PORTAIL_ORIENTATION ETAB
@@ -24,12 +24,12 @@
          <field column="DT_DEBUT" name="DT_DEBUT" />
          <field column="NUMERO_FASE_ETAB" name="NUMERO_FASE_ETAB" />
          <field column="NOM_ETAB" name="NOM_ETAB" />
-         <field column="ADRS_IMPL" name="ADRS_IMPL" />
+         <field column="ADRS_ETAB" name="ADRS_ETAB" />
          <field column="RESEAU" name="RESEAU" />
          <field column="PROV_ETAB" name="PROV_ETAB" />
          <field column="URL_ETAB" name="URL_ETAB" />
          <field column="TELEPHONE_ETAB" name="TELEPHONE_ETAB" />
-         <field column="CP_LOC_COM_IMPL" name="CP_LOC_COM_IMPL" />
+         <field column="CP_LOC_COM_ETAB" name="CP_LOC_COM_ETAB" />
       </entity>
    </document>
 </dataConfig>
